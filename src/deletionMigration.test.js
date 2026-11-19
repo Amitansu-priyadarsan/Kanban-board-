@@ -24,12 +24,20 @@ beforeAll(async () => {
     create table storage.objects (bucket_id text, name text);
     alter table storage.objects enable row level security;
     grant usage on schema storage to anon, authenticated;
-    grant select, delete on storage.objects to anon, authenticated;
-    create policy storage_test_read on storage.objects for select using (true);
+    grant select, insert, delete on storage.objects to anon, authenticated;
+    create policy storage_test_read on storage.objects for select using (bucket_id = 'gnb-edge-docs');
   `);
   await db.exec(schema);
   await db.exec(migration);
   await db.exec(migration);
+  for (const file of ["002_issue_photos.sql", "003_issue_schedule.sql"]) {
+    const sql = readFileSync(
+      new URL("../supabase/migrations/" + file, import.meta.url),
+      "utf8",
+    );
+    await db.exec(sql);
+    await db.exec(sql);
+  }
 }, 30000);
 afterAll(async () => {
   if (db) await db.close();
@@ -139,6 +147,101 @@ describe("Supabase deletion migration in PostgreSQL", () => {
         )
       ).rows,
     ).toEqual([{ name: path }]);
+    await db.exec("reset role");
+  });
+});
+
+describe("Issue schedules and photo permissions in PostgreSQL", () => {
+  it("validates start/end times and records schedule changes in issue history", async () => {
+    const id = "44444444-4444-4444-8444-444444444444";
+    await db.exec("set role anon");
+    await db.query(
+      "insert into public.edge_tasks(id,title,starts_at,ends_at) values ($1,'Scheduled',$2,$3)",
+      [id, "2026-11-20T10:00:00+05:30", "2026-11-20T11:00:00+05:30"],
+    );
+    await expect(
+      db.query("update public.edge_tasks set ends_at=starts_at where id=$1", [
+        id,
+      ]),
+    ).rejects.toThrow("edge_tasks_schedule_valid");
+    await db.query("update public.edge_tasks set ends_at=$2 where id=$1", [
+      id,
+      "2026-11-20T12:00:00+05:30",
+    ]);
+    expect(
+      (
+        await db.query(
+          "select field from public.edge_history where task_id=$1 and field='ends_at'",
+          [id],
+        )
+      ).rows,
+    ).toEqual([{ field: "ends_at" }]);
+    expect(
+      (
+        await db.query("select revision from public.edge_tasks where id=$1", [
+          id,
+        ])
+      ).rows[0].revision,
+    ).toBe(1);
+    await db.exec("reset role");
+  });
+  it("allows photo uploads only to a real active issue and protects referenced files from cleanup", async () => {
+    const task = "55555555-5555-4555-8555-555555555555";
+    const photo = "66666666-6666-4666-8666-666666666666";
+    const path = `issues/${task}/${photo}.png`;
+    await db.query(
+      "insert into public.edge_tasks(id,title) values ($1,'Photo issue')",
+      [task],
+    );
+    await db.exec("set role anon");
+    await db.query(
+      "insert into storage.objects(bucket_id,name) values ('gnb-edge-issue-photos',$1)",
+      [path],
+    );
+    await db.query(
+      "insert into public.edge_task_photos(id,task_id,path,file_name,content_type,bytes) values ($1,$2,$3,'screen.png','image/png',128)",
+      [photo, task, path],
+    );
+    expect(
+      (
+        await db.query("select path from public.edge_task_photos where id=$1", [
+          photo,
+        ])
+      ).rows,
+    ).toEqual([{ path }]);
+    expect(
+      (
+        await db.query(
+          "delete from storage.objects where name=$1 returning name",
+          [path],
+        )
+      ).rows,
+    ).toHaveLength(0);
+    await db.query("delete from public.edge_task_photos where id=$1", [photo]);
+    expect(
+      (
+        await db.query(
+          "delete from storage.objects where name=$1 returning name",
+          [path],
+        )
+      ).rows,
+    ).toEqual([{ name: path }]);
+    await db.query(
+      "update public.edge_tasks set archived_at=now() where id=$1",
+      [task],
+    );
+    await expect(
+      db.query(
+        "insert into storage.objects(bucket_id,name) values ('gnb-edge-issue-photos',$1)",
+        [path],
+      ),
+    ).rejects.toThrow("row-level security");
+    await expect(
+      db.query(
+        "insert into public.edge_task_photos(id,task_id,path,file_name,content_type,bytes) values ($1,$2,$3,'screen.png','image/png',128)",
+        [photo, task, path],
+      ),
+    ).rejects.toThrow("row-level security");
     await db.exec("reset role");
   });
 });

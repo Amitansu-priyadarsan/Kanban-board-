@@ -1,3 +1,5 @@
+import { parseSchedule } from "./schedule";
+
 export const STATUSES = ["To Do", "In Progress", "In Review", "Done"];
 export const PRIORITIES = ["High", "Normal", "Low"];
 export const FIELDS = [
@@ -25,6 +27,8 @@ export const FIELD_LABELS = {
   due_date: "Due date",
   archived_at: "Archived",
   created: "Created",
+  starts_at: "Start time",
+  ends_at: "End time",
 };
 export const BUILTIN_DOC = {
   id: "release",
@@ -50,6 +54,7 @@ export const displayDate = (value) =>
     ? new Intl.DateTimeFormat("en-IN", {
         dateStyle: "medium",
         timeStyle: "short",
+        timeZone: "Asia/Kolkata",
       }).format(new Date(value))
     : "";
 export const displayDue = (value) =>
@@ -88,7 +93,13 @@ export function taskPayload(form) {
     payload[name] = safeUrl(payload[name]) || null;
   }
   for (const name of ["assignee_email", "due_date"]) payload[name] ||= null;
-  return payload;
+  return {
+    ...payload,
+    ...parseSchedule(
+      String(data.get("starts_at") || ""),
+      String(data.get("ends_at") || ""),
+    ),
+  };
 }
 
 export function filterTasks(tasks, members, { search, assignee }) {

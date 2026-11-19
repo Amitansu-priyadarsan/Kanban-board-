@@ -2,7 +2,8 @@
 
 React + Vite version of the existing Kanban board. It uses the same Supabase
 workspace, tables, document bucket and release handoff as the original HTML app.
-No data migration is needed.
+Existing tasks, members and documents stay in place. New photo and scheduling
+features require the additive SQL migrations described below.
 
 ## Run locally
 
@@ -19,7 +20,7 @@ and document links work on static hosting without server rewrite rules.
 The existing shared Supabase URL and browser publishable key are the defaults.
 To connect another workspace, copy `.env.example` to `.env.local`, set both
 values, then restart Vite. Only use browser publishable keys here.
-For a new Supabase project, run `supabase/schema.sql` first, then the migration
+For a new Supabase project, run `supabase/schema.sql` first, then the migrations
 described below. The existing shared project already has the base schema.
 
 ## Checks and production build
@@ -60,3 +61,35 @@ transaction, retaining the existing task audit history. Uploaded documents can
 be deleted from their card or viewer. The metadata is deleted first, followed
 by the storage object; failed file cleanup offers a retry. The release document
 included in the app remains bundled with the source.
+
+## Issue photos, scheduling and reports
+
+Run these in the Supabase SQL Editor in order (safe to rerun):
+
+1. `supabase/migrations/002_issue_photos.sql`: issue-photo metadata, private
+   storage bucket and policies.
+2. `supabase/migrations/003_issue_schedule.sql`: issue start/end timestamps,
+   validation and schedule audit history.
+
+The app opens on **Today**, showing issues whose scheduled interval overlaps
+today in IST. **Last 7 days** includes today and the previous six calendar days;
+**Custom range** includes both selected dates. Overnight issues appear on each
+day they overlap; an issue ending exactly at midnight does not also appear on
+the following day. **All time** includes unscheduled issues. Existing issues
+start unscheduled; use All time to edit their start and end times.
+
+New issues default to the current time plus a one-hour end time. Edit both
+values, or clear both to leave the issue unscheduled. A scheduled issue must
+have an end later than its start. Timestamps and CSV reports use IST regardless
+of the browser's timezone. Search, assignee and period filters compose, and the
+CSV download contains the matching current-board issues (not archived issues).
+The board paginates its Supabase reads so reports are not silently limited to
+the first API page.
+
+Attach photos when creating an issue or upload them in an existing issue's
+Photos section. JPG, PNG, WebP and GIF are supported, up to 10 MB each and ten
+files per batch. View full images or delete individual photos. If creating an
+issue succeeds but photo uploads fail, the saved issue opens for retry rather
+than being created again. Uploads retain successful files in partial batches.
+The private bucket uses signed image links and the same shared-board access
+model as the rest of this app.

@@ -6,6 +6,7 @@ import Board from "./components/Board";
 import TaskEditor from "./components/TaskEditor";
 import { Documents, DocumentViewer } from "./components/Documents";
 import WorkspaceDialog from "./components/WorkspaceDialog";
+import { validatePhotoFiles } from "./photos";
 
 export default function App() {
   const [route, go] = useHashRoute();
@@ -25,6 +26,11 @@ export default function App() {
     removeMember,
   } = workspace;
   const [filter, setFilter] = useState({ search: "", assignee: "" });
+  const [reportSelection, setReportSelection] = useState({
+    preset: "today",
+    from: "",
+    to: "",
+  });
   const [dialog, setDialog] = useState(null);
   const [busy, setBusy] = useState(false);
   const [pending, setPending] = useState(new Set());
@@ -77,15 +83,31 @@ export default function App() {
       inform(`Saved. Board refresh failed: ${err.message}`, true);
     }
   };
-  const saveTask = (payload, task) =>
+  const saveTask = (payload, task, files = []) =>
     run(async () => {
+      await validatePhotoFiles(files);
       const saved = task
         ? await api.updateTask(task.id, task.revision, payload)
         : await api.createTask(payload);
       applyTask(saved);
       if (!task) setFilter({ search: "", assignee: "" });
-      go("tasks");
-      inform("Task saved.");
+      let photoError = "";
+      if (files.length) {
+        try {
+          const result = await api.uploadTaskPhotos(saved.id, files);
+          if (result.error)
+            photoError = `${result.uploaded} photos uploaded. ${result.error}`;
+        } catch (err) {
+          photoError = err.message;
+        }
+      }
+      go(photoError ? `task/${saved.id}` : "tasks");
+      inform(
+        photoError
+          ? `Task saved. Photos could not all be uploaded: ${photoError}. Retry in the Photos section.`
+          : "Task saved.",
+        Boolean(photoError),
+      );
       await refreshAfterSave();
     });
   const moveTask = async (taskId, status) => {
@@ -265,6 +287,8 @@ export default function App() {
         refresh={refreshBoard}
         refreshing={loading}
         onMembers={() => setDialog("members")}
+        reportSelection={reportSelection}
+        setReportSelection={setReportSelection}
       />
     );
 

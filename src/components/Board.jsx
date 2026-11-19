@@ -1,4 +1,15 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import {
+  Clock3,
+  ArrowRight,
+  GripVertical,
+  Flag,
+  CalendarDays,
+} from "lucide-react";
+import { displayDate } from "../model";
+import { downloadReport, filterBySchedule, reportRange } from "../reports";
+import ReportFilters from "./ReportFilters";
+import { scheduleDay, scheduleTime } from "../schedule";
 import {
   DndContext,
   DragOverlay,
@@ -34,21 +45,61 @@ export function Person({ members, email }) {
 function CardContent({ task, members }) {
   return (
     <>
+      <div className="task-eyebrow">
+        <span className="task-scope">{task.scope}</span>
+      </div>
       <h3>{task.title}</h3>
-      <div className="tags">
-        <span className="tag scope">{task.scope}</span>
-        {task.priority !== "Normal" && (
-          <span className={`tag ${task.priority === "High" ? "high" : ""}`}>
-            {task.priority}
+      <div className="task-badges">
+        <span
+          className={`task-priority priority-${task.priority.toLowerCase()}`}
+        >
+          <Flag size={11} aria-hidden="true" />
+          {task.priority}
+        </span>
+        {task.due_date && (
+          <span className="task-due">
+            <CalendarDays size={11} aria-hidden="true" />
+            Due {displayDue(task.due_date)}
           </span>
         )}
       </div>
+      {task.starts_at && task.ends_at ? (
+        <div className="task-schedule">
+          <div>
+            <span>
+              <Clock3 size={11} aria-hidden="true" />
+              Starts
+            </span>
+            <strong>{scheduleTime(task.starts_at)}</strong>
+            <small>{scheduleDay(task.starts_at)}</small>
+          </div>
+          <ArrowRight size={14} aria-hidden="true" />
+          <div>
+            <span>Ends</span>
+            <strong>{scheduleTime(task.ends_at)}</strong>
+            <small>{scheduleDay(task.ends_at)}</small>
+          </div>
+        </div>
+      ) : (
+        <p className="task-unscheduled">
+          <Clock3 size={13} aria-hidden="true" />
+          No time set
+        </p>
+      )}
       <div className="task-foot">
         <Person members={members} email={task.assignee_email} />
-        {task.due_date && (
-          <time dateTime={task.due_date}>{displayDue(task.due_date)}</time>
-        )}
+        <span className="task-open">
+          Details <ArrowRight size={12} aria-hidden="true" />
+        </span>
       </div>
+      {task.created_at && (
+        <div className="task-created">
+          Created{" "}
+          <time dateTime={task.created_at}>
+            {displayDate(task.created_at)} IST
+          </time>
+        </div>
+      )}
     </>
   );
 }
@@ -61,7 +112,7 @@ function TaskCard({ task, members, onMove, pending }) {
   return (
     <article
       ref={setNodeRef}
-      className={`task ${isDragging ? "is-dragging" : ""}`}
+      className={`task status-${task.status.toLowerCase().replaceAll(" ", "-")} ${isDragging ? "is-dragging" : ""}`}
     >
       <a
         className="task-link"
@@ -79,7 +130,7 @@ function TaskCard({ task, members, onMove, pending }) {
         title="Drag to another column"
         disabled={pending}
       >
-        ⠿
+        <GripVertical size={16} aria-hidden="true" />
       </button>
       {task.status === "To Do" && (
         <button
@@ -144,13 +195,26 @@ export default function Board({
   refresh,
   refreshing,
   onMembers,
+  reportSelection,
+  setReportSelection,
 }) {
   const [activeId, setActiveId] = useState(null);
+  const [now, setNow] = useState(() => new Date());
+  useEffect(() => {
+    const update = () => setNow(new Date());
+    const timer = setInterval(update, 60000);
+    window.addEventListener("focus", update);
+    return () => {
+      clearInterval(timer);
+      window.removeEventListener("focus", update);
+    };
+  }, []);
   const sensors = useSensors(
     useSensor(PointerSensor, { activationConstraint: { distance: 5 } }),
     useSensor(KeyboardSensor),
   );
-  const filtered = filterTasks(tasks, members, filter);
+  const range = reportRange(reportSelection, now);
+  const filtered = filterBySchedule(filterTasks(tasks, members, filter), range);
   const active = tasks.find((task) => task.id === activeId);
   return (
     <>
@@ -199,6 +263,34 @@ export default function Board({
           Refresh
         </button>
       </div>
+      <ReportFilters
+        selection={reportSelection}
+        setSelection={setReportSelection}
+        range={range}
+        tasks={filtered}
+        loading={refreshing}
+        onDownload={() =>
+          downloadReport(filtered, members, reportSelection, now)
+        }
+      />
+      {!filtered.length && tasks.length > 0 && (
+        <div className="board-empty">
+          <CalendarDays size={22} aria-hidden="true" />
+          <div>
+            <strong>No issues match this view</strong>
+            <p>Use All time to see existing issues and set their schedule.</p>
+          </div>
+          <button
+            className="btn"
+            onClick={() => {
+              setFilter({ search: "", assignee: "" });
+              setReportSelection((current) => ({ ...current, preset: "all" }));
+            }}
+          >
+            Show all issues
+          </button>
+        </div>
+      )}
       <DndContext
         sensors={sensors}
         onDragStart={({ active }) => setActiveId(active.id)}

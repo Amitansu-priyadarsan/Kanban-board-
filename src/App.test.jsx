@@ -21,6 +21,11 @@ vi.mock("./api", () => ({
   deleteMember: vi.fn(),
   deleteDocument: vi.fn(),
   cleanupDocumentFile: vi.fn(),
+  getTaskPhotos: vi.fn(),
+  getPhotoUrl: vi.fn(),
+  uploadTaskPhotos: vi.fn(),
+  deleteTaskPhoto: vi.fn(),
+  cleanupPhotoFile: vi.fn(),
 }));
 const member = { email: "amit@roster.invalid", name: "Amit" };
 const task = {
@@ -34,6 +39,8 @@ const task = {
   description: "Keep replay working",
   acceptance: "Tabs stay available",
   due_date: "2026-11-22",
+  starts_at: new Date().toISOString(),
+  ends_at: new Date(Date.now() + 3600000).toISOString(),
 };
 const other = {
   ...task,
@@ -56,6 +63,7 @@ beforeEach(() => {
   history.replaceState(null, "", "/#tasks");
   api.loadWorkspace.mockResolvedValue(workspace);
   api.getHistory.mockResolvedValue([]);
+  api.getTaskPhotos.mockResolvedValue([]);
 });
 
 describe("Member and document deletion", () => {
@@ -347,6 +355,102 @@ describe("Existing board workflows in React", () => {
     fireEvent.click(screen.getByRole("button", { name: "Retry" }));
     expect(
       await screen.findByRole("heading", { name: "Track replay" }),
+    ).toBeInTheDocument();
+  });
+});
+
+describe("Scheduled views and new-issue photos", () => {
+  it("defaults to today and exposes unscheduled and future work under All time", async () => {
+    const later = {
+      ...other,
+      id: "future",
+      title: "Future issue",
+      starts_at: new Date(Date.now() + 172800000).toISOString(),
+      ends_at: new Date(Date.now() + 176400000).toISOString(),
+    };
+    const unscheduled = {
+      ...other,
+      id: "unscheduled",
+      title: "No schedule",
+      starts_at: null,
+      ends_at: null,
+    };
+    api.loadWorkspace.mockResolvedValue({
+      ...workspace,
+      tasks: [task, later, unscheduled],
+    });
+    render(<App />);
+    await screen.findByRole("heading", { name: task.title });
+    expect(
+      screen.getByRole("button", { name: "Today", exact: true }),
+    ).toHaveAttribute("aria-pressed", "true");
+    expect(
+      screen.queryByRole("heading", { name: "Future issue" }),
+    ).not.toBeInTheDocument();
+    expect(
+      screen.queryByRole("heading", { name: "No schedule" }),
+    ).not.toBeInTheDocument();
+    fireEvent.click(
+      screen.getByRole("button", { name: "All time", exact: true }),
+    );
+    expect(
+      screen.getByRole("heading", { name: "Future issue" }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole("heading", { name: "No schedule" }),
+    ).toBeInTheDocument();
+    fireEvent.click(
+      screen.getByRole("button", { name: "Custom range", exact: true }),
+    );
+    fireEvent.change(screen.getByLabelText("From"), { target: { value: "" } });
+    expect(
+      screen.getByRole("button", { name: "Download report (CSV)" }),
+    ).toBeDisabled();
+    expect(screen.getByRole("alert")).toHaveTextContent("Choose both dates");
+  });
+  it("prevents saving backwards schedule times", async () => {
+    render(<App />);
+    await screen.findByRole("heading", { name: "Tasks" });
+    await navigate("#new/0");
+    fireEvent.change(screen.getByLabelText("Title"), {
+      target: { value: "Bad time" },
+    });
+    fireEvent.change(screen.getByLabelText("Start date and time (IST)"), {
+      target: { value: "2026-11-20T10:00" },
+    });
+    fireEvent.change(screen.getByLabelText("End date and time (IST)"), {
+      target: { value: "2026-11-20T09:00" },
+    });
+    fireEvent.click(screen.getByRole("button", { name: "Create task" }));
+    await screen.findByText("The end time must be after the start time.");
+    expect(api.createTask).not.toHaveBeenCalled();
+  });
+  it("retains the saved issue and opens its photos when an upload fails", async () => {
+    const saved = { ...task, id: "photo-task", title: "Issue with screenshot" };
+    api.createTask.mockResolvedValue(saved);
+    api.uploadTaskPhotos.mockRejectedValue(new Error("Storage offline"));
+    render(<App />);
+    await screen.findByRole("heading", { name: "Tasks" });
+    await navigate("#new/0");
+    fireEvent.change(screen.getByLabelText("Title"), {
+      target: { value: saved.title },
+    });
+    const file = new File(
+      [new Uint8Array([137, 80, 78, 71, 13, 10, 26, 10])],
+      "screen.png",
+      { type: "image/png" },
+    );
+    fireEvent.change(screen.getByLabelText(/Photos \(optional\)/), {
+      target: { files: [file] },
+    });
+    api.loadWorkspace.mockResolvedValue({ ...workspace, tasks: [saved] });
+    fireEvent.click(screen.getByRole("button", { name: "Create task" }));
+    await screen.findByRole("button", { name: "Upload photos" });
+    expect(api.createTask).toHaveBeenCalledTimes(1);
+    expect(api.uploadTaskPhotos).toHaveBeenCalledWith("photo-task", [file]);
+    expect(location.hash).toBe("#task/photo-task");
+    expect(
+      screen.getByRole("form", { name: "Task details" }),
     ).toBeInTheDocument();
   });
 });

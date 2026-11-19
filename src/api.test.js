@@ -10,9 +10,15 @@ const { query, bucket, client } = vi.hoisted(() => {
     "insert",
     "order",
     "delete",
+    "range",
   ])
     query[key] = vi.fn(() => query);
-  const bucket = { upload: vi.fn(), remove: vi.fn(), download: vi.fn() };
+  const bucket = {
+    upload: vi.fn(),
+    remove: vi.fn(),
+    download: vi.fn(),
+    createSignedUrl: vi.fn(),
+  };
   const client = {
     from: vi.fn(() => query),
     rpc: vi.fn(),
@@ -26,6 +32,9 @@ import {
   uploadDocuments,
   deleteMember,
   deleteDocument,
+  loadBoardTasks,
+  uploadTaskPhotos,
+  deleteTaskPhoto,
 } from "./api";
 
 beforeEach(() => {
@@ -39,6 +48,7 @@ beforeEach(() => {
     "insert",
     "order",
     "delete",
+    "range",
   ])
     query[key].mockReturnValue(query);
 });
@@ -146,6 +156,79 @@ describe("Supabase mutation safeguards", () => {
     expect(await uploadDocuments(files, "")).toEqual({
       uploaded: 1,
       error: "Upload failed",
+    });
+  });
+});
+
+describe("Photo uploads and complete board reads", () => {
+  const photo = () =>
+    new File(
+      [new Uint8Array([137, 80, 78, 71, 13, 10, 26, 10, 0])],
+      "issue.png",
+      { type: "image/png" },
+    );
+  it("continues past the API page limit before returning report tasks", async () => {
+    const first = Array.from({ length: 500 }, (_, id) => ({ id }));
+    query.range
+      .mockResolvedValueOnce({ data: first })
+      .mockResolvedValueOnce({ data: [{ id: 500 }] });
+    expect(await loadBoardTasks()).toHaveLength(501);
+    expect(query.range).toHaveBeenNthCalledWith(1, 0, 499);
+    expect(query.range).toHaveBeenNthCalledWith(2, 500, 999);
+  });
+  it("attaches a validated image to its issue and private storage path", async () => {
+    bucket.upload.mockResolvedValue({ data: {}, error: null });
+    query.insert.mockResolvedValue({ data: null, error: null });
+    expect(await uploadTaskPhotos("issue-id", [photo()])).toEqual({
+      uploaded: 1,
+    });
+    expect(bucket.upload).toHaveBeenCalledWith(
+      expect.stringMatching(/^issues\/issue-id\/.+\.png$/),
+      expect.any(File),
+      { contentType: "image/png", upsert: false },
+    );
+    expect(query.insert).toHaveBeenCalledWith(
+      expect.objectContaining({
+        task_id: "issue-id",
+        file_name: "issue.png",
+        content_type: "image/png",
+        bytes: 9,
+      }),
+    );
+  });
+  it("cleans up storage if attaching the photo record fails", async () => {
+    bucket.upload.mockResolvedValue({ data: {}, error: null });
+    bucket.remove.mockResolvedValue({ data: [], error: null });
+    query.insert.mockResolvedValue({
+      data: null,
+      error: { message: "Issue archived" },
+    });
+    await expect(uploadTaskPhotos("issue-id", [photo()])).rejects.toThrow(
+      "Issue archived",
+    );
+    expect(bucket.remove).toHaveBeenCalledWith([
+      expect.stringMatching(/^issues\/issue-id\/.+\.png$/),
+    ]);
+  });
+  it("does not remove a photo file if the metadata deletion failed", async () => {
+    query.select.mockResolvedValue({ data: [], error: null });
+    await expect(
+      deleteTaskPhoto({
+        id: "p",
+        task_id: "issue-id",
+        path: "issues/issue-id/p.png",
+      }),
+    ).rejects.toThrow("not deleted");
+    expect(bucket.remove).not.toHaveBeenCalled();
+  });
+  it("preserves successful uploads and reports where a batch stopped", async () => {
+    bucket.upload
+      .mockResolvedValueOnce({ data: {}, error: null })
+      .mockResolvedValueOnce({ error: { message: "Offline" } });
+    query.insert.mockResolvedValue({ data: null, error: null });
+    expect(await uploadTaskPhotos("issue-id", [photo(), photo()])).toEqual({
+      uploaded: 1,
+      error: "Offline",
     });
   });
 });

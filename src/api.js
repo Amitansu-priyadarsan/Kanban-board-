@@ -1,4 +1,5 @@
 import { createClient } from "@supabase/supabase-js";
+import { validatePhotoFiles } from "./photos";
 
 const client = createClient(
   import.meta.env.VITE_SUPABASE_URL ||
@@ -19,18 +20,121 @@ function decode(result) {
   return result.data;
 }
 
+// Supabase caps an unpaginated read. Reports must cover the entire current board.
+export async function loadBoardTasks() {
+  const tasks = [];
+  const size = 500;
+  for (let offset = 0; ; offset += size) {
+    const rows = decode(
+      await client
+        .from("edge_tasks")
+        .select()
+        .is("archived_at", null)
+        .order("created_at")
+        .order("id")
+        .range(offset, offset + size - 1),
+    );
+    tasks.push(...rows);
+    if (rows.length < size) return tasks;
+  }
+}
+
 export async function loadWorkspace() {
   const results = await Promise.all([
     client.from("edge_members").select("email,name,role").order("name"),
-    client
-      .from("edge_tasks")
-      .select()
-      .is("archived_at", null)
-      .order("created_at"),
+    loadBoardTasks(),
     client.from("edge_docs").select().order("created_at", { ascending: false }),
   ]);
-  const [members, tasks, docs] = results.map(decode);
+  const [memberResult, tasks, docResult] = results;
+  const members = decode(memberResult);
+  const docs = decode(docResult);
   return { members, tasks, docs };
+}
+
+const photoBucket = client.storage.from("gnb-edge-issue-photos");
+function decodePhotos(result) {
+  if (["PGRST205", "42P01", "42501"].includes(result.error?.code)) {
+    throw new Error("Photo uploads are not enabled for this workspace yet.");
+  }
+  return decode(result);
+}
+export async function getTaskPhotos(taskId) {
+  return decodePhotos(
+    await client
+      .from("edge_task_photos")
+      .select()
+      .eq("task_id", taskId)
+      .order("created_at")
+      .order("id"),
+  );
+}
+export async function getPhotoUrl(path) {
+  const result = decodePhotos(await photoBucket.createSignedUrl(path, 3600));
+  return result.signedUrl;
+}
+export async function cleanupPhotoFile(path) {
+  decode(await photoBucket.remove([path]));
+}
+export async function uploadTaskPhotos(taskId, files) {
+  const prepared = await validatePhotoFiles(files);
+  if (!prepared.length) throw new Error("Choose at least one photo.");
+  let uploaded = 0;
+  try {
+    for (const { file, extension } of prepared) {
+      const id = crypto.randomUUID();
+      const path = `issues/${taskId}/${id}.${extension}`;
+      decodePhotos(
+        await photoBucket.upload(path, file, {
+          contentType: file.type,
+          upsert: false,
+        }),
+      );
+      const result = await client.from("edge_task_photos").insert({
+        id,
+        task_id: taskId,
+        path,
+        file_name: file.name.slice(0, 255),
+        content_type: file.type,
+        bytes: file.size,
+      });
+      if (result.error) {
+        const cleanup = await photoBucket.remove([path]);
+        const suffix = cleanup.error
+          ? ` File cleanup also failed: ${cleanup.error.message}`
+          : "";
+        try {
+          decodePhotos(result);
+        } catch (error) {
+          throw new Error(error.message + suffix);
+        }
+      }
+      uploaded++;
+    }
+  } catch (error) {
+    if (!uploaded) throw error;
+    return { uploaded, error: error.message };
+  }
+  return { uploaded };
+}
+export async function deleteTaskPhoto(photo) {
+  const removed = decodePhotos(
+    await client
+      .from("edge_task_photos")
+      .delete()
+      .eq("id", photo.id)
+      .eq("task_id", photo.task_id)
+      .select("id"),
+  );
+  if (removed.length !== 1)
+    throw new Error(
+      "Photo was not deleted. Refresh the issue before trying again.",
+    );
+  try {
+    await cleanupPhotoFile(photo.path);
+    return {};
+  } catch (error) {
+    return { cleanupError: error.message };
+  }
 }
 export async function updateTask(id, revision, payload) {
   const changed = decode(
