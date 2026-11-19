@@ -1,0 +1,41 @@
+{
+  "file": "DriverApp_Screen_Runtime_Audit_2026-11-20.xlsx",
+  "bytes": 20212007,
+  "worksheets": [
+    "Summary",
+    "All Screens",
+    "Runtime Checks",
+    "Issues",
+    "API Checks",
+    "Report Reconciliation",
+    "Saved UI Actions",
+    "Seed Coverage",
+    "Local Test Accounts",
+    "Backend Contracts",
+    "Limits and Next Checks",
+    "Screenshots"
+  ],
+  "screenRows": 191,
+  "currentRows": 139,
+  "olderRows": 52,
+  "runtimeChecks": 96,
+  "apiChecks": 88,
+  "issues": 20,
+  "uniqueScreenshots": 97,
+  "embeddedImages": 114,
+  "completionCounts": {
+    "SOURCE ONLY - NOT RUNTIME VERIFIED": 15,
+    "PARTIAL": 60,
+    "MISSING": 30,
+    "UNREACHABLE": 10,
+    "VERIFIED WITHIN TESTED SCOPE": 29,
+    "FAILED IN TESTED FLOW": 8,
+    "PLACEHOLDER": 10,
+    "INACTIVE": 29
+  },
+  "saveAssertionsPassed": 5,
+  "reconciliationAssertionsPassed": 17,
+  "publicExport": true,
+  "localTestAccountCredentials": "REDACTED",
+  "originalUnredactedFile": "Retained only in local audit workspace"
+}

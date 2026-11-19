@@ -1,0 +1,350 @@
+{
+  "date": "2026-11-19",
+  "sections": {
+    "tolls": {
+      "status": "empty",
+      "availability": "unavailable",
+      "coverage": "unknown",
+      "reasonCode": "NOT_ENABLED",
+      "metrics": {}
+    },
+    "ewbRisks": {
+      "status": "empty",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": "NO_ROWS",
+      "metrics": {
+        "count": 0,
+        "expired": 0
+      }
+    },
+    "driverTrends": {
+      "status": "empty",
+      "availability": "available",
+      "coverage": "partial",
+      "reasonCode": "NO_ROWS",
+      "metrics": {
+        "count": 0,
+        "consistencyScore": null,
+        "samples": 0
+      }
+    },
+    "documents": {
+      "status": "ok",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": null,
+      "metrics": {
+        "count": 2
+      }
+    },
+    "challans": {
+      "status": "empty",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": "NO_ROWS",
+      "metrics": {
+        "count": 0,
+        "amount": 0
+      }
+    },
+    "deviations": {
+      "status": "empty",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": "NO_ROWS",
+      "metrics": {
+        "count": 0
+      }
+    },
+    "trips": {
+      "status": "ok",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": null,
+      "metrics": {
+        "count": 2,
+        "ladenKm": 241
+      }
+    },
+    "diesel": {
+      "status": "ok",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": null,
+      "metrics": {
+        "count": 2,
+        "litres": 201,
+        "amount": 18492
+      }
+    },
+    "expenses": {
+      "status": "ok",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": null,
+      "metrics": {
+        "count": 3,
+        "amount": 2250,
+        "pending": 1,
+        "confirmed": 1,
+        "rejected": 1
+      }
+    },
+    "advances": {
+      "status": "ok",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": null,
+      "metrics": {
+        "count": 1,
+        "amount": 3000
+      }
+    },
+    "fuelReviews": {
+      "status": "ok",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": null,
+      "metrics": {
+        "count": 5
+      }
+    },
+    "workshopReviews": {
+      "status": "ok",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": null,
+      "metrics": {
+        "count": 1
+      }
+    },
+    "expenseReviews": {
+      "status": "ok",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": null,
+      "metrics": {
+        "count": 1
+      }
+    },
+    "issues": {
+      "status": "ok",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": null,
+      "metrics": {
+        "count": 2
+      }
+    },
+    "inbox": {
+      "status": "ok",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": null,
+      "metrics": {
+        "count": 6
+      }
+    },
+    "register": {
+      "status": "empty",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": "NO_ROWS",
+      "metrics": {
+        "count": 0,
+        "litres": 0
+      }
+    },
+    "turnaround": {
+      "status": "empty",
+      "availability": "available",
+      "coverage": "partial",
+      "reasonCode": "NO_ROWS",
+      "metrics": {
+        "count": 0,
+        "averageMinutes": null
+      }
+    },
+    "adblue": {
+      "status": "ok",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": null,
+      "metrics": {
+        "count": 1,
+        "litres": 15,
+        "amount": 675
+      }
+    },
+    "people": {
+      "status": "ok",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": null,
+      "metrics": {
+        "count": 4,
+        "ongoingPairings": 3
+      }
+    },
+    "issuesRaised": {
+      "status": "empty",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": "NO_ROWS",
+      "metrics": {
+        "count": 0
+      }
+    },
+    "deviationsRaised": {
+      "status": "empty",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": "NO_ROWS",
+      "metrics": {
+        "count": 0
+      }
+    },
+    "pairedDrivers": {
+      "status": "ok",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": null,
+      "metrics": {
+        "count": 3,
+        "drivers": 3
+      }
+    },
+    "fleet": {
+      "status": "ok",
+      "availability": "available",
+      "coverage": "partial",
+      "reasonCode": null,
+      "metrics": {
+        "total": 4,
+        "moving": 0,
+        "idling": 0,
+        "parked": 0,
+        "offline": 4,
+        "unknown": 0,
+        "atPlant": null
+      }
+    },
+    "dataHealth": {
+      "status": "ok",
+      "availability": "available",
+      "coverage": "partial",
+      "reasonCode": null,
+      "metrics": {
+        "registered": 4,
+        "fresh": 0,
+        "stale": 4,
+        "unknown": 0,
+        "vendorLinked": 0,
+        "vendorUnlinked": 4
+      }
+    },
+    "finance": {
+      "status": "ok",
+      "availability": "available",
+      "coverage": "complete",
+      "reasonCode": null,
+      "metrics": {
+        "billed": 30000,
+        "directCost": 0,
+        "billedMargin": 30000,
+        "cashIn": 5000,
+        "cashOut": 1200,
+        "receivablesNow": 0
+      }
+    },
+    "distance": {
+      "status": "empty",
+      "availability": "available",
+      "coverage": "partial",
+      "reasonCode": "NO_USABLE_ROWS",
+      "metrics": {
+        "observedKm": null,
+        "observedVehicles": 0,
+        "fleetCoveragePct": 0
+      }
+    },
+    "sensorReconciliation": {
+      "status": "ok",
+      "availability": "available",
+      "coverage": "partial",
+      "reasonCode": null,
+      "metrics": {
+        "billL": null,
+        "registerL": null,
+        "sensorFillL": null,
+        "billRegisterGapL": null,
+        "billSensorFillGapL": null,
+        "engineBurnL": null,
+        "tankDeltaL": null,
+        "unaccountedLossL": null,
+        "alignedVehicles": 0
+      }
+    },
+    "tripMargin": {
+      "status": "empty",
+      "availability": "available",
+      "coverage": "partial",
+      "reasonCode": "NO_USABLE_ROWS",
+      "metrics": {
+        "postedRevenue": null,
+        "postedHireCost": null,
+        "contribution": null,
+        "settledCost": null,
+        "settledMargin": null,
+        "actualProfit": null,
+        "linkedTrips": 1
+      }
+    },
+    "onTime": {
+      "status": "empty",
+      "availability": "available",
+      "coverage": "partial",
+      "reasonCode": "NO_ROWS",
+      "metrics": {
+        "arrivals": 2,
+        "assessed": 0,
+        "onTime": null,
+        "late": null,
+        "missingPromise": 2
+      }
+    },
+    "crew": {
+      "status": "empty",
+      "availability": "available",
+      "coverage": "partial",
+      "reasonCode": "NO_ROWS",
+      "metrics": {
+        "declaredDrivingMinutes": null,
+        "declaredRestMinutes": null,
+        "driversWithDeclarations": 0,
+        "exceedsCompanyDrivingPolicy": null,
+        "recordedRestMeetsPolicy": null
+      }
+    },
+    "etaRisks": {
+      "status": "empty",
+      "availability": "available",
+      "coverage": "partial",
+      "reasonCode": "NO_ROWS",
+      "metrics": {
+        "activeTrips": 0,
+        "withMeasuredEta": 0,
+        "promiseRisks": null,
+        "ewayRisks": null
+      }
+    },
+    "navigation": {
+      "status": "empty",
+      "availability": "unavailable",
+      "coverage": "unknown",
+      "reasonCode": "NOT_CONNECTED",
+      "metrics": {}
+    }
+  }
+}

@@ -1,0 +1,560 @@
+[
+  {
+    "id": "ahead.list",
+    "method": "GET",
+    "path": "/api/app/v2/ahead",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "ahead.list.contract.js"
+  },
+  {
+    "id": "capture.byId",
+    "method": "GET",
+    "path": "/api/app/v2/captures/:id",
+    "roles": [
+      "DRIVER",
+      "FIELD_AGENT"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "captureById.contract.js"
+  },
+  {
+    "id": "capture.create",
+    "method": "POST",
+    "path": "/api/app/v2/captures",
+    "roles": [
+      "DRIVER",
+      "FIELD_AGENT"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "required",
+    "source": "captureCreate.contract.js"
+  },
+  {
+    "id": "capture.list",
+    "method": "GET",
+    "path": "/api/app/v2/captures",
+    "roles": [
+      "DRIVER",
+      "FIELD_AGENT"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "captureList.contract.js"
+  },
+  {
+    "id": "capture.retake",
+    "method": "POST",
+    "path": "/api/app/v2/captures/:id/retake",
+    "roles": [
+      "DRIVER",
+      "FIELD_AGENT"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "required",
+    "source": "captureRetake.contract.js"
+  },
+  {
+    "id": "config.read",
+    "method": "GET",
+    "path": "/api/app/v2/config",
+    "roles": [
+      "OWNER",
+      "MANAGER",
+      "DRIVER",
+      "FIELD_AGENT"
+    ],
+    "minAppVersion": "1.0.0",
+    "idempotency": "n/a",
+    "source": "config.contract.js"
+  },
+  {
+    "id": "consent.grant",
+    "method": "POST",
+    "path": "/api/app/v2/consent",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "1.0.0",
+    "idempotency": "required",
+    "source": "consent.grant.contract.js"
+  },
+  {
+    "id": "consent.read",
+    "method": "GET",
+    "path": "/api/app/v2/consent",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "1.0.0",
+    "idempotency": "n/a",
+    "source": "consent.read.contract.js"
+  },
+  {
+    "id": "consent.withdraw",
+    "method": "POST",
+    "path": "/api/app/v2/consent/withdraw",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "1.0.0",
+    "idempotency": "required",
+    "source": "consent.withdraw.contract.js"
+  },
+  {
+    "id": "crew.action",
+    "method": "POST",
+    "path": "/api/app/v2/crew/:vehicleId/actions",
+    "roles": [
+      "DRIVER",
+      "OWNER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "required",
+    "source": "crew.action.contract.js"
+  },
+  {
+    "id": "crew.ask",
+    "method": "POST",
+    "path": "/api/app/v2/crew/:vehicleId/ask",
+    "roles": [
+      "DRIVER",
+      "MANAGER",
+      "OWNER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "crew.ask.contract.js"
+  },
+  {
+    "id": "crew.confidence",
+    "method": "GET",
+    "path": "/api/app/v2/crew/confidence",
+    "roles": [
+      "MANAGER",
+      "OWNER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "crew.confidence.contract.js"
+  },
+  {
+    "id": "crew.detail",
+    "method": "GET",
+    "path": "/api/app/v2/crew/:vehicleId",
+    "roles": [
+      "DRIVER",
+      "MANAGER",
+      "OWNER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "crew.detail.contract.js"
+  },
+  {
+    "id": "crew.list",
+    "method": "GET",
+    "path": "/api/app/v2/crew",
+    "roles": [
+      "MANAGER",
+      "OWNER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "crew.list.contract.js"
+  },
+  {
+    "id": "destinations.click",
+    "method": "POST",
+    "path": "/api/app/v2/destinations/suggestions/:id/click",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "required",
+    "source": "destinations.click.contract.js"
+  },
+  {
+    "id": "destinations.search",
+    "method": "GET",
+    "path": "/api/app/v2/destinations/search",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "destinations.search.contract.js"
+  },
+  {
+    "id": "destinations.suggest",
+    "method": "GET",
+    "path": "/api/app/v2/destinations/suggestions",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "destinations.suggest.contract.js"
+  },
+  {
+    "id": "duty.breakPlan",
+    "method": "GET",
+    "path": "/api/app/v2/duty/break-plan",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "duty.breakPlan.contract.js"
+  },
+  {
+    "id": "duty.today",
+    "method": "GET",
+    "path": "/api/app/v2/duty/today",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "duty.today.contract.js"
+  },
+  {
+    "id": "fuel.fills",
+    "method": "GET",
+    "path": "/api/app/v2/fuel/fills",
+    "roles": [
+      "DRIVER",
+      "OWNER",
+      "MANAGER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "fuel.fills.contract.js"
+  },
+  {
+    "id": "help.breakdown",
+    "method": "POST",
+    "path": "/api/app/v2/help/breakdown",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "help.breakdown.contract.js"
+  },
+  {
+    "id": "help.menu",
+    "method": "GET",
+    "path": "/api/app/v2/help",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "help.menu.contract.js"
+  },
+  {
+    "id": "manager.cards.actRate",
+    "method": "GET",
+    "path": "/api/app/v2/manager/cards/act-rate",
+    "roles": [
+      "MANAGER",
+      "OWNER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "manager.cards.actRate.contract.js"
+  },
+  {
+    "id": "manager.cards",
+    "method": "GET",
+    "path": "/api/app/v2/manager/cards",
+    "roles": [
+      "MANAGER",
+      "OWNER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "manager.cards.contract.js"
+  },
+  {
+    "id": "manager.cards.dismiss",
+    "method": "POST",
+    "path": "/api/app/v2/manager/cards/:id/dismiss",
+    "roles": [
+      "MANAGER",
+      "OWNER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "manager.cards.dismiss.contract.js"
+  },
+  {
+    "id": "manager.cards.outcome",
+    "method": "POST",
+    "path": "/api/app/v2/manager/cards/:id/outcome",
+    "roles": [
+      "MANAGER",
+      "OWNER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "manager.cards.outcome.contract.js"
+  },
+  {
+    "id": "manager.cards.snooze",
+    "method": "POST",
+    "path": "/api/app/v2/manager/cards/:id/snooze",
+    "roles": [
+      "MANAGER",
+      "OWNER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "manager.cards.snooze.contract.js"
+  },
+  {
+    "id": "messages.conversation",
+    "method": "GET",
+    "path": "/api/app/v2/messages/conversations/:id",
+    "roles": [
+      "OWNER",
+      "MANAGER",
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "messages.conversation.contract.js"
+  },
+  {
+    "id": "messages.conversations",
+    "method": "GET",
+    "path": "/api/app/v2/messages/conversations",
+    "roles": [
+      "OWNER",
+      "MANAGER",
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "messages.conversations.contract.js"
+  },
+  {
+    "id": "messages.read",
+    "method": "POST",
+    "path": "/api/app/v2/messages/conversations/:id/read",
+    "roles": [
+      "OWNER",
+      "MANAGER",
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "messages.read.contract.js"
+  },
+  {
+    "id": "messages.send",
+    "method": "POST",
+    "path": "/api/app/v2/messages/conversations/:id/messages",
+    "roles": [
+      "OWNER",
+      "MANAGER",
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "required",
+    "source": "messages.send.contract.js"
+  },
+  {
+    "id": "nav.metrics.read",
+    "method": "GET",
+    "path": "/api/app/v2/nav/metrics",
+    "roles": [
+      "OWNER",
+      "MANAGER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "nav.metrics.read.contract.js"
+  },
+  {
+    "id": "nav.sessions.active",
+    "method": "GET",
+    "path": "/api/app/v2/nav/sessions/active",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "navSessionActive.contract.js"
+  },
+  {
+    "id": "nav.sessions.patch",
+    "method": "PATCH",
+    "path": "/api/app/v2/nav/sessions/:id",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "required",
+    "source": "navSessionPatch.contract.js"
+  },
+  {
+    "id": "nav.sessions.start",
+    "method": "POST",
+    "path": "/api/app/v2/nav/sessions",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "required",
+    "source": "navSessionStart.contract.js"
+  },
+  {
+    "id": "prompts.answer",
+    "method": "POST",
+    "path": "/api/app/v2/prompts/:id/answer",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "required",
+    "source": "prompts.answer.contract.js"
+  },
+  {
+    "id": "prompts.inbox",
+    "method": "GET",
+    "path": "/api/app/v2/prompts",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "prompts.inbox.contract.js"
+  },
+  {
+    "id": "roadReports.create",
+    "method": "POST",
+    "path": "/api/app/v2/reports",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "roadReports.create.contract.js"
+  },
+  {
+    "id": "roadReports.list",
+    "method": "GET",
+    "path": "/api/app/v2/reports",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "roadReports.list.contract.js"
+  },
+  {
+    "id": "roadReports.stillThere",
+    "method": "POST",
+    "path": "/api/app/v2/reports/:id/still-there",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "roadReports.stillThere.contract.js"
+  },
+  {
+    "id": "routes.our",
+    "method": "GET",
+    "path": "/api/app/v2/routes/our",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "routes.our.contract.js"
+  },
+  {
+    "id": "routes.plan",
+    "method": "POST",
+    "path": "/api/app/v2/routes",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "routes.plan.contract.js"
+  },
+  {
+    "id": "sites.card",
+    "method": "GET",
+    "path": "/api/app/v2/sites/:siteId/card",
+    "roles": [
+      "DRIVER",
+      "OWNER",
+      "MANAGER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "sites.card.contract.js"
+  },
+  {
+    "id": "stopQuestions.ask",
+    "method": "POST",
+    "path": "/api/app/v2/stops/:vehicleId/questions",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "stopQuestions.ask.contract.js"
+  },
+  {
+    "id": "stream.read",
+    "method": "GET",
+    "path": "/api/app/v2/stream",
+    "roles": [],
+    "minAppVersion": "1.0.0",
+    "idempotency": "n/a",
+    "source": "stream.contract.js"
+  },
+  {
+    "id": "stream.ticket.issue",
+    "method": "POST",
+    "path": "/api/app/v2/stream/ticket",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "1.0.0",
+    "idempotency": "n/a",
+    "source": "stream.ticket.contract.js"
+  },
+  {
+    "id": "visits.active",
+    "method": "GET",
+    "path": "/api/app/v2/visits/active",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "2.0.0",
+    "idempotency": "n/a",
+    "source": "visits.active.contract.js"
+  },
+  {
+    "id": "voice.phrases.read",
+    "method": "GET",
+    "path": "/api/app/v2/voice/phrases",
+    "roles": [
+      "DRIVER"
+    ],
+    "minAppVersion": "1.0.0",
+    "idempotency": "n/a",
+    "source": "voice.contract.js"
+  }
+]

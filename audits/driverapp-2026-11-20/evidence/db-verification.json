@@ -1,0 +1,103 @@
+{
+  "at": "2026-11-19T21:26:17.792Z",
+  "orgId": "6aff5fc8749038a41aa87691",
+  "counts": {
+    "User": 7,
+    "AppSession": 19,
+    "Vehicle": 4,
+    "Document": 5,
+    "TripFuelLog": 14,
+    "RoutesMaster": 3,
+    "Branch": 3,
+    "FuelComparisonTask": 11,
+    "VehicleMileageInterval": 12,
+    "OrgMembership": 2,
+    "Role": 4,
+    "LiveVehiclePosition": 4,
+    "LiveVehiclePositionHistory": 96,
+    "AutoTrip": 16,
+    "ServiceBillExtraction": 1,
+    "Party": 4,
+    "RateMaster": 8,
+    "Vendor": 3,
+    "MaterialCompatibility": 2,
+    "ErpSettings": 1,
+    "ErpTrip": 2,
+    "OrgSite": 1,
+    "Placement": 2,
+    "MileageMaster": 2,
+    "StateFuelRate": 2,
+    "RouteBudget": 1,
+    "AdvancePayment": 1,
+    "Consignment": 1,
+    "LedgerEntry": 2,
+    "Voucher": 2,
+    "Supplier": 3,
+    "CallSchedule": 4,
+    "CallTask": 3,
+    "DeliveryOrder": 3,
+    "Unloading": 1,
+    "ShortageDetentionSetting": 1,
+    "SaleBill": 1,
+    "SupportTicket": 2,
+    "SupportTicketMessage": 2,
+    "DriverVehicleAssignment": 3,
+    "Incident": 2,
+    "AlertInboxItem": 6,
+    "NavMetricDaily": 1,
+    "DriverOperation": 8,
+    "OwnerPreference": 1,
+    "OwnerEvent": 1,
+    "OwnerCall": 1,
+    "OwnerConversation": 3,
+    "OwnerMessage": 4,
+    "OwnerCrew": 1,
+    "Expense": 4,
+    "Capture": 2,
+    "Visit": 1,
+    "RoadReport": 1,
+    "CrewInterval": 4,
+    "AtWheelInterval": 1,
+    "ManagerCard": 3,
+    "DriverAlert": 5
+  },
+  "totalRecords": 307,
+  "populatedModels": 58,
+  "checks": [
+    {
+      "name": "Report preference persisted",
+      "expected": "07:45",
+      "actual": "07:45",
+      "result": true
+    },
+    {
+      "name": "UI text messages saved",
+      "expected": "at least 1",
+      "actual": 2,
+      "result": true
+    },
+    {
+      "name": "UI Driver issue saved",
+      "expected": 1,
+      "actual": 1,
+      "result": true
+    },
+    {
+      "name": "UI support ticket saved",
+      "expected": 1,
+      "actual": 1,
+      "result": true
+    },
+    {
+      "name": "UI Owner explanation audited",
+      "expected": 1,
+      "actual": 1,
+      "result": true
+    }
+  ],
+  "synthetic": true,
+  "notes": [
+    "Counts exclude field agents with no User.orgId, the Organisation row, and any unloaded models.",
+    "Finance sale/unloading fixtures do not prove approval workflows. Receipt/payment vouchers used real transactional services."
+  ]
+}

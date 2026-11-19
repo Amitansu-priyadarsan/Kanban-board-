@@ -1,5 +1,16 @@
 # GNB Edge
 
+## DriverApp release audit — 20 November 2026
+
+The audit is available on this branch:
+
+- [Detailed README with screen/backend status and embedded screenshots](audits/driverapp-2026-11-20/README.md)
+- [Download the Excel audit](audits/driverapp-2026-11-20/DriverApp_Screen_Runtime_Audit_2026-11-20.xlsx)
+- [All 117 original screenshots](audits/driverapp-2026-11-20/screenshots/)
+
+It covers 191 plan entries, 96 runtime observations, 88 API checks and 20 findings.
+Working behavior, planned gaps and unverified acceptance checks are labelled separately.
+
 React + Vite version of the existing Kanban board. It uses the same Supabase
 workspace, tables, document bucket and release handoff as the original HTML app.
 Existing tasks, members and documents stay in place. New photo and scheduling

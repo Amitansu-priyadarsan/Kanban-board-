@@ -1,0 +1,962 @@
+[
+  {
+    "Role": "OWNER",
+    "Screen / action": "Initial",
+    "Current plan IDs": "O01",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "Audit’s workspace\nAaj ka hisaab\n\n\n\nAuthorized branches\n\nDAILY REPORT\nThu, 19 Nov\n· IST\n\n\nYesterday\n\nSummary\nMoney\nWork\nPeople\nFleet right now\n\nTruck telemetry\n0\n/\n4\ntrucks moving\n\n0\nParked\n0\nIdling\n4\nOffline\n0\nUnknown\nLatest observation 02:22 am IST\nThe day at a glance\nSelected day\n\n\nCompleted trips\n2\nMarked complete\n\n\nObserved distance\n—\nData unavailable\n\n\nDiesel purchases\n₹18,492\nRecorded, not paid\n\n\nDriver bills\n₹0\nSubmitted for review\nNeeds your review\nView inbox\n\nFuel captures\nCurrent review queue\n5\n\n\nDriver bills\nCurrent review queue\n1\n\n\nPapers & renewals\nCurrent review queue\n2\n\nYour workspace\n\nMessages\n\nReviews\n\nCrew\n\nTrends\n\nKnow what’s behind the numbers\nCoverage, source times & missing data\n\n\nReport checked\n02:49 am\nIST · pull to refresh\nAbout this report\n\nToday\n\nLive\n\n6\nAlerts\n\nMore\n\nFleet",
+    "Embedded screenshot": "web-owner-initial.png",
+    "Observed at": "2026-11-19T21:19:15.206Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Tab Live",
+    "Current plan IDs": "O20",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "OWNER\nFleet positions\nA view of your trucks on the road.\n\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\n\n\n4 trucks with reported coordinates · Tap a marker for details\nall\nmoving\nstopped\nidling\noffline\nMARKER\n1\n\n\nOffline\nAUD20NOV04\nAudit Truck 4\n\n13.08000, 80.24500\nTruck GPS\n\nUpdated 207 min ago\nMARKER\n2\n\n\nOffline\nAUD20NOV03\nAudit Truck 3\n\n13.06000, 80.23000\nTruck GPS\n\nUpdated 27 min ago\nMARKER\n3\n\n\nOffline\nAUD20NOV02\nAudit Truck 2\n\n13.04000, 80.21500\nTruck GPS\n\nUpdated 27 min ago\nMARKER\n4\n\n\nOffline\nAUD20NOV01\nAudit Truck 1\n\n13.02000, 80.20000\nTruck GPS\n\nUpdated 27 min ago\n\nToday\n\nLive\n\n6\nAlerts\n\nMore\n\nFleet",
+    "Embedded screenshot": "web-owner-tab-live.png",
+    "Observed at": "2026-11-19T21:19:16.550Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Tab Fleet",
+    "Current plan IDs": "O20",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "OWNER\nYour fleet\nEvery truck, one clear view.\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\nSearch vehicles\n\n\n\nOffline\nAUD20NOV04\nAudit Truck 4\n\n13.08000, 80.24500\nTruck GPS\n\nUpdated 207 min ago\n\n\nOffline\nAUD20NOV03\nAudit Truck 3\n\n13.06000, 80.23000\nTruck GPS\n\nUpdated 27 min ago\n\n\nOffline\nAUD20NOV02\nAudit Truck 2\n\n13.04000, 80.21500\nTruck GPS\n\nUpdated 27 min ago\n\n\nOffline\nAUD20NOV01\nAudit Truck 1\n\n13.02000, 80.20000\nTruck GPS\n\nUpdated 27 min ago\n\nToday\n\nLive\n\n6\nAlerts\n\nMore\n\nFleet",
+    "Embedded screenshot": "web-owner-tab-fleet.png",
+    "Observed at": "2026-11-19T21:19:17.966Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Tab Alerts",
+    "Current plan IDs": "O10",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "Owner inbox\nThe things that need your attention.\nTop priority\nAll items\n6\nretained items\n6 active\nUrgent\nopen\nSOS pressed\nAUD20NOV01\nReview case\n\nUrgent\nopen\nAUDIT DRIVER_INCIDENT\nAUD20NOV01\nReview case\n\nNeeds review\nopen\nAUDIT DOCUMENT_EXPIRING\nAUD20NOV01\nReview case\n\nNeeds review\nopen\nAUDIT ENGINE_ON_IDLE\nAUD20NOV01\nReview case\n\nNeeds review\nopen\nPapers expired or due soon\nAUD20NOV01\nReview case\n\nNeeds review\nopen\nPapers expired or due soon\nAudit Ramesh Kumar\nReview case\n\n\nToday\n\nLive\n\n6\nAlerts\n\nMore\n\nFleet",
+    "Embedded screenshot": "web-owner-tab-alerts.png",
+    "Observed at": "2026-11-19T21:19:19.400Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Tab More",
+    "Current plan IDs": "O26",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "Your workspace\nFleet, finances and your team.\nApp\n\nLanguage & voice\n\nFleet & people\n\nDriver roster\n\n\nCrew & driving\n\n\nTrip history\n\n\nFuel & AdBlue\n\n\nMaintenance\n\nMoney & records\n\nCapture reviews\n\n\nBilling & cash flow\n\n\nFleet documents\n\nConversations\n\nMessages & broadcasts\n\n\nCalls & follow-ups\n\n\nOwner inbox\n\nYour workspace\n\nFleet home summary\n\n\nToday's business report\n\n\nReports & trends\n\n\nMorning report\n\n\nTeam & access\n\n\nSettings & support\n\n\nToday\n\nLive\n\n6\nAlerts\n\nMore\n\nFleet",
+    "Embedded screenshot": "web-owner-tab-more.png",
+    "Observed at": "2026-11-19T21:19:20.801Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Language & voice",
+    "Current plan IDs": "A02 A10",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nLanguage & voice\nLanguage\nEnglish\nहिन्दी\nবাংলা\nTest device voice\nBattery help",
+    "Embedded screenshot": "web-owner-language-voice.png",
+    "Observed at": "2026-11-19T21:13:03.673Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Driver roster",
+    "Current plan IDs": "M06 O20",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nOWNER\nDrivers and assignments\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\n4\ndrivers · Current assignments\n\nAudit Codriver Audit\nNo active assignment\n\n\nAudit Mahesh Yadav\nTruck linked · MANUAL\n\n\nAudit Suresh Singh\nTruck linked · MANUAL\n\n\nAudit Ramesh Kumar\nTruck linked · MANUAL\n\nPrevious\nNext\nAssign / hand over truck",
+    "Embedded screenshot": "web-owner-driver-roster.png",
+    "Observed at": "2026-11-19T21:13:05.772Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Crew & driving",
+    "Current plan IDs": "M14",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nCrew & driving\nAUD20NOV04\nAUD20NOV03\nAUD20NOV02\nAUD20NOV01",
+    "Embedded screenshot": "web-owner-crew-driving.png",
+    "Observed at": "2026-11-19T21:13:07.895Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Trip history",
+    "Current plan IDs": "O04",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nFleet trip history\n16\nmatching GPS-detected trips · page\n1\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n121 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n120 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n123 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n122 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n125 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n124 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n127 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n126 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n129 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n128 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n131 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n130 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n133 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n132 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n135 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n134 km · COMPLETE\n\nPrevious page\nNext page",
+    "Embedded screenshot": "web-owner-trip-history.png",
+    "Observed at": "2026-11-19T21:13:09.956Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Fuel & AdBlue",
+    "Current plan IDs": "O22",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nAdBlue / DEF ledger\nView diesel fuel entries\nSelected-scope ledger: logged AdBlue, telemetry consumption and reconciliation. Each row carries its own coverage window; this is not a daily total.\nRegistered vehicles:\n4\nLogged AdBlue:\n0 L\nDEF burned:\nUnavailable\nSensor fills:\nUnavailable\nFleet dosing:\nUnavailable\nFlagged vehicles:\n0\nSearch vehicle\nAUD20NOV01\nNO_DATA\nLogged:\nUnavailable\n· Burned:\nUnavailable\nSensor fills:\nUnavailable\n· Balance:\nUnavailable\nDosing:\nUnavailable\n· Normal\n3\n–\n6\n%\nShow evidence\nAUD20NOV02\nNO_DATA\nLogged:\nUnavailable\n· Burned:\nUnavailable\nSensor fills:\nUnavailable\n· Balance:\nUnavailable\nDosing:\nUnavailable\n· Normal\n3\n–\n6\n%\nShow evidence\nAUD20NOV03\nNO_DATA\nLogged:\nUnavailable\n· Burned:\nUnavailable\nSensor fills:\nUnavailable\n· Balance:\nUnavailable\nDosing:\nUnavailable\n· Normal\n3\n–\n6\n%\nShow evidence\nAUD20NOV04\nNO_DATA\nLogged:\nUnavailable\n· Burned:\nUnavailable\nSensor fills:\nUnavailable\n· Balance:\nUnavailable\nDosing:\nUnavailable\n· Normal\n3\n–\n6\n%\nShow evidence\nRefresh",
+    "Embedded screenshot": "web-owner-fuel-adblue.png",
+    "Observed at": "2026-11-19T21:13:12.040Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Maintenance",
+    "Current plan IDs": "O23",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nOWNER\nWorkshop bills and issues\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\nWorkshop bills\n\n1\nrecords · Page\n1\n\nWorkshop bill\nPARTIAL\n\nPrevious\nNext",
+    "Embedded screenshot": "web-owner-maintenance.png",
+    "Observed at": "2026-11-19T21:13:14.143Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Capture reviews",
+    "Current plan IDs": "O13",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "FAIL - HTTP 426",
+    "Actual visible transcript / notes": "\nCapture reviews\nRequest failed with status code 426\nRetry",
+    "Embedded screenshot": "web-owner-capture-reviews.png",
+    "Observed at": "2026-11-19T21:13:16.243Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Billing & cash flow",
+    "Current plan IDs": "O05",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nBilling and cash evidence\n2026-11-19\nIST. Billed margin excludes overheads; payments and purchases are separate.\n\nFreight billed\n\n\nPurchase bills\n\n\nSupplier invoices\n\n\nCash received\n\n\nCash paid\n\n\nOutstanding receivables now\n",
+    "Embedded screenshot": "web-owner-billing-cash-flow.png",
+    "Observed at": "2026-11-19T21:13:18.396Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Fleet documents",
+    "Current plan IDs": "O24",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nOWNER\nFleet documents\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\n5\nrecords · Page\n1\n\nUNKNOWN\nRecorded\n\n\nREPAIR_INVOICE\nRecorded\n\n\nPUC\nRecorded\n\n\nPAN\nRecorded\n\n\nDRIVER_LICENSE\nRecorded\n\nPrevious\nNext",
+    "Embedded screenshot": "web-owner-fleet-documents.png",
+    "Observed at": "2026-11-19T21:13:20.542Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Messages & broadcasts",
+    "Current plan IDs": "C01",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nMessages\nYour team, one conversation away.\n\n\nAUDIT Owner and Ramesh\nDirect message · 2 people\n\n\nAUDIT scheduled future broadcast\nBroadcast · 3 people\nScheduled\n\n\nAUDIT Chennai Team\nGroup · 4 people\n",
+    "Embedded screenshot": "web-owner-messages-broadcasts.png",
+    "Observed at": "2026-11-19T21:13:22.690Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Conversation",
+    "Current plan IDs": "C02",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nAUDIT Owner and Ramesh\nDirect conversation\n·\nActive\n·\n1\nother participants\nYou\n·\n20/11/2026, 02:20:52\nAUDIT: Please confirm you can see this local test message.\n0\n/\n1\nfetched ·\n0\nread ·\n0\nacknowledged ·\n0\nskipped\nDelivery details\nFleet colleague\n·\n20/11/2026, 02:20:52\nAUDIT: Driver reply saved in local backend.\nAcknowledge message\nYou\n·\n20/11/2026, 02:41:44\nLOCAL UI audit message 2026-11-19T21:11:44.695Z\n0\n/\n1\nfetched ·\n0\nread ·\n0\nacknowledged ·\n0\nskipped\nDelivery details\nMessage\nSend message\n\nPhoto\n\nVoice\n\nLocation\n\nUpdate",
+    "Embedded screenshot": "web-owner-conversation.png",
+    "Observed at": "2026-11-19T21:13:24.095Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Send message",
+    "Current plan IDs": "C02",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "PASS - UI write and Mongo persistence verified",
+    "Actual visible transcript / notes": "\nAUDIT Owner and Ramesh\nDirect conversation\n·\nActive\n·\n1\nother participants\nYou\n·\n20/11/2026, 02:20:52\nAUDIT: Please confirm you can see this local test message.\n0\n/\n1\nfetched ·\n0\nread ·\n0\nacknowledged ·\n0\nskipped\nDelivery details\nFleet colleague\n·\n20/11/2026, 02:20:52\nAUDIT: Driver reply saved in local backend.\nAcknowledge message\nYou\n·\n20/11/2026, 02:41:44\nLOCAL UI audit message 2026-11-19T21:11:44.695Z\n0\n/\n1\nfetched ·\n0\nread ·\n0\nacknowledged ·\n0\nskipped\nDelivery details\nYou\n·\n20/11/2026, 02:43:25\nLOCAL UI audit message 2026-11-19T21:13:25.529Z\n0\n/\n1\nfetched ·\n0\nread ·\n0\nacknowledged ·\n0\nskipped\nDelivery details\nMessage\nSend message\n\nPhoto\n\nVoice\n\nLocation\n\nUpdate",
+    "Embedded screenshot": "web-owner-send-message.png",
+    "Observed at": "2026-11-19T21:13:25.529Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Calls & follow-ups",
+    "Current plan IDs": "O12",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nCalls and outcomes\nDriver\nChoose…\n\nOpen dialer\nReturning from the dialer does not prove that a call connected. Record the outcome yourself.\n\n+919000012010\nFOLLOW_UP · 20/11/2026, 02:20:52\n\nPrevious calls\nMore calls",
+    "Embedded screenshot": "web-owner-calls-follow-ups.png",
+    "Observed at": "2026-11-19T21:13:29.277Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Owner inbox",
+    "Current plan IDs": "O10",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nOwner inbox\nThe things that need your attention.\nTop priority\nAll items\n6\nretained items\n6 active\nUrgent\nopen\nSOS pressed\nAUD20NOV01\nReview case\n\nUrgent\nopen\nAUDIT DRIVER_INCIDENT\nAUD20NOV01\nReview case\n\nNeeds review\nopen\nAUDIT DOCUMENT_EXPIRING\nAUD20NOV01\nReview case\n\nNeeds review\nopen\nAUDIT ENGINE_ON_IDLE\nAUD20NOV01\nReview case\n\nNeeds review\nopen\nPapers expired or due soon\nAUD20NOV01\nReview case\n",
+    "Embedded screenshot": "web-owner-owner-inbox.png",
+    "Observed at": "2026-11-19T21:19:22.613Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Fleet home summary",
+    "Current plan IDs": "O21",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nOWNER\nYour fleet, in focus.\nLive positions, drivers, and recent trips.\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\nAuthorized branches\n· LOADED RECORDS\n4\ntrucks.\n0\nmoving ·\n4\noffline\nStatus unavailable: 0\nExplore fleet\n\n4\nDrivers\nIn selected branch\n\n0\nPending fuel slips\nIn the selected branch\nRecent trips\nLatest GPS-detected journeys.\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\nAUD20NOV01 · 121 km · 19 Nov · Complete\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\nAUD20NOV01 · 120 km · 19 Nov · Complete\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\nAUD20NOV01 · 123 km · 18 Nov · Complete\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\nAUD20NOV01 · 122 km · 18 Nov · Complete\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\nAUD20NOV01 · 125 km · 17 Nov · Complete\n\nView all trips\nKeep things moving\n\nDuty board\nDriving, resting and truck links\n\n\nReview fuel slips\n0 pending fuel slips\n\n\nMaintenance & issues\nReview workshop bills and vehicle issues\n",
+    "Embedded screenshot": "web-owner-fleet-home-summary.png",
+    "Observed at": "2026-11-19T21:13:33.560Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Today's business report",
+    "Current plan IDs": "O01",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "PARTIAL - report opens without visible exit",
+    "Actual visible transcript / notes": "Audit’s workspace\nAaj ka hisaab\n\n\n\nAuthorized branches\n\nDAILY REPORT\nThu, 19 Nov\n· IST\n\n\nYesterday\n\nSummary\nMoney\nWork\nPeople\nFleet right now\n\nTruck telemetry\n0\n/\n4\ntrucks moving\n\n0\nParked\n0\nIdling\n4\nOffline\n0\nUnknown\nLatest observation 02:22 am IST\nThe day at a glance\nSelected day\n\n\nCompleted trips\n2\nMarked complete\n\n\nObserved distance\n—\nData unavailable\n\n\nDiesel purchases\n₹18,492\nRecorded, not paid\n\n\nDriver bills\n₹0\nSubmitted for review\nNeeds your review\nView inbox\n\nFuel captures\nCurrent review queue\n5\n\n\nDriver bills\nCurrent review queue\n1\n\n\nPapers & renewals\nCurrent review queue\n2\n\nYour workspace\n\nMessages\n\nReviews\n\nCrew\n\nTrends\n\nKnow what’s behind the numbers\nCoverage, source times & missing data\n\n\nReport checked\n02:43 am\nIST · pull to refresh\nAbout this report",
+    "Embedded screenshot": "web-owner-today-s-business-report.png",
+    "Observed at": "2026-11-19T21:13:35.670Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Reports & trends",
+    "Current plan IDs": "O06",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nTrends and same weekday\n2026-11-06\nto\n2026-11-19\nIST · selected branch\nEach day uses the same filter as that day's report section, over the current vehicle and driver scope. Late entries and rebuilt records can change earlier days.\nSeven-day averages are per day. A comparison is not marked comparable when the selected day is partial or a compared day has missing inputs.\nTrips marked complete\ncount\n:\n2 records\nSame weekday (\n2026-11-12\n):\n2 records\n· 7-day average:\n2 records\nladen Km\n:\n241 km\nSame weekday (\n2026-11-12\n):\n269 km\n· 7-day average:\n257 km\nShow 14 days\nRecorded diesel purchases\ncount\n:\n2 records\nSame weekday (\n2026-11-12\n):\n0 records\n· 7-day average:\n1.43 records\nlitres\n:\n201 L\nSame weekday (\n2026-11-12\n):\n0 L\n· 7-day average:\n153.86 L\namount\n:\n₹18,492\nSame weekday (\n2026-11-12\n):\n₹0\n· 7-day average:\n₹14,154.86\nShow 14 days\nRecorded AdBlue purchases\ncount\n:\n0 records\nSame weekday (\n2026-11-12\n):\n0 records\n· 7-day average:\n0.29 records\nlitres\n:\n0 L\nSame weekday (\n2026-11-12\n):\n0 L\n· 7-day average:\n4.29 L\namount\n:\n₹0\nSame weekday (\n2026-11-12\n):\n₹0\n· 7-day average:\n₹192.86\nShow 14 days\nDriver bills submitted\ncount\n:\n0 records\nSame weekday (\n2026-11-12\n):\n0 records\n· 7-day average:\n0 records\namount\n:\n₹0\nSame weekday (\n2026-11-12\n):\n₹0\n· 7-day average:\n₹0\nShow 14 days\nAdvances paid\ncount\n:\n1 records\nSame weekday (\n2026-11-12\n):\n0 records\n· 7-day average:\n0 records\namount\n:\n₹3,000\nSame weekday (\n2026-11-12\n):\n₹0\n· 7-day average:\n₹0\nShow 14 days\nRecorded toll charges\nNot enabled\nThis source is not enabled for your organisation.\nImported fuel register\ncount\n:\n0 records\nSame weekday (\n2026-11-12\n):\n0 records\n· 7-day average:\n0 records\nlitres\n:\n0 L\nSame weekday (\n2026-11-12\n):\n0 L\n· 7-day average:\n0 L\nShow 14 days\nPlant turnaround\ncount\n:\n0 records\nSame weekday (\n2026-11-12\n):\n0 records\n· 7-day average:\n0 records\naverage Minutes\n:\nNo records\nSame weekday (\n2026-11-12\n):\nNo records\n· 7-day average:\nUnavailable\nShow 14 days\nIncidents raised in the day\ncount\n:\n0 records\nSame weekday (\n2026-11-12\n):\n0 records\n· 7-day average:\n0 records\nIncidents created in the selected day, whatever their current status. Open incidents now are a separate section.\nShow 14 days\nRoute deviations detected in the day\ncount\n:\n0 records\nSame weekday (\n2026-11-12\n):\n0 records\n· 7-day average:\n0 records\nRoute deviations detected in the selected day, whatever their current review status.\nShow 14 days\nDrivers paired during the day\ncount\n:\n3 records\nSame weekday (\n2026-11-12\n):\n0 records\n· 7-day average:\n0 records\ndrivers\n:\n3 drivers\nSame weekday (\n2026-11-12\n):\n0 drivers\n· 7-day average:\n0 drivers\nRecorded pairing sessions overlapping the selected day, using the current driver roster. Pairing is not verified at-wheel time or rest.\nShow 14 days\nFleet now, Truck data health\n:\nTruck states are current observations; their daily history is not retained.\nFuel captures needing review now, Workshop extraction reviews now, Financial bill approvals now, Open incidents now, Full alert inbox now, Captured papers expired or due soon, Open or disputed challans now, Route deviations needing review now, Drivers and pairing status now\n:\nBacklogs and open cases describe now, not a past day. Raised-in-day exceptions and paired drivers are trended instead.\nBilling and cash movement\n:\nFinance Hub period measures are not repeated per day in this series.\nOn-time arrivals, Bill / register / sensor reconciliation, At-wheel and rest, Navigation coverage, Actual per-trip margin\n:\nThese report sections have no connected source yet.",
+    "Embedded screenshot": "web-owner-reports-trends.png",
+    "Observed at": "2026-11-19T21:14:51.539Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Morning report",
+    "Current plan IDs": "O08",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nMorning report\nDaily notification\nDisabled\n\nTime in IST (HH:mm)\nLanguage\nEnglish\n\nReport branch\nAuthorized branches\n\nOpens yesterday's report. Historical reports are recomputed; device notification permission is also required.\nSave preference",
+    "Embedded screenshot": "web-owner-morning-report.png",
+    "Observed at": "2026-11-19T21:17:39.457Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Team & access",
+    "Current plan IDs": "O25",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nTeam & access\nAdd employee\nRole\nChoose…\n\nCreate a role\nRole name\nDescription\nAccess tier\nMANAGER\n\nPermissions\n☐\nAdvance Masters · Advance Masters\n☐\nApproval Center · Approval Center\n☐\nBilling & Receivables · Billing & Receivables\n☐\nCall Planning · Call Planning\n☐\nERP Home · ERP Home\n☐\nFleet Intelligence · Fleet Intelligence\n☐\nFuel Comparison · Fuel Comparison\n☐\nFuel Integrity · Fuel Integrity\n☐\nFuel Management · Fuel Management\n☐\nGeofence · Geofence\n☐\nInbound e-Way Bills · Inbound e-Way Bills\n☐\nKhata Ledger · Khata Ledger\n☐\nLocations · Locations\n☐\nMasters & Settings · Masters & Settings\n☐\nOverview · Overview\n☐\nPayables & Ledger · Payables & Ledger\n☐\nReports · Reports\n☐\nVehicles · Vehicles\n☐\nWorkforce · Workforce\nSave role\nAssign a role\nEmployee\nChoose…\n\nAssignment scope\nEnterprise\n\nAssign selected role\nBranch access\nConfigure branch\nChoose…\n",
+    "Embedded screenshot": "web-owner-team-access.png",
+    "Observed at": "2026-11-19T21:14:55.839Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Settings & support",
+    "Current plan IDs": "A12 O26",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nOWNER\nSettings & support\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\nRemote notifications require an installed native development or release build.\n\nAudit\nOWNER\nLog out",
+    "Embedded screenshot": "web-owner-settings-support.png",
+    "Observed at": "2026-11-19T21:14:57.954Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Save report preference",
+    "Current plan IDs": "O08",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "PASS - UI write and Mongo persistence verified",
+    "Actual visible transcript / notes": "\nMorning report\nDaily notification\nDisabled\n\nTime in IST (HH:mm)\nLanguage\nEnglish\n\nReport branch\nAuthorized branches\n\nOpens yesterday's report. Historical reports are recomputed; device notification permission is also required.\nSave preference",
+    "Embedded screenshot": "web-owner-save-report-preference.png",
+    "Observed at": "2026-11-19T21:17:40.852Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Escalation detail",
+    "Current plan IDs": "O11",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nOwner escalation\nAUDIT ENGINE_ON_IDLE\nReview local audit evidence\nAUD20NOV01\nSeverity × confidence × urgency × monetary-stake factor. Unassessed stake uses factor 1; default confidence is a source-count heuristic, not a calibrated probability.\nScore\n1\n· confidence\n0.5\n· stake\nunassessed\nAcknowledgement:\nOPEN\n. Owner action:\nOPEN\n.\nlocal-screen-audit\n·\nSynthetic audit fixture\nAssessed stake in rupees (optional)\nAssessed confidence, 0 to 1 (optional)\nUrgent after (ISO timestamp with timezone, optional)\nAction note or driver's explanation (recorded by owner)\nMark handled\nSnooze one hour\nEscalate\nReopen\nRecord explanation\nCall a driver about this issue\nAction history\nEarlier actions\nNewer actions",
+    "Embedded screenshot": "web-owner-escalation-detail.png",
+    "Observed at": "2026-11-19T21:19:24.009Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Record explanation",
+    "Current plan IDs": "O11",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "PASS - UI write and Mongo persistence verified",
+    "Actual visible transcript / notes": "\nOwner escalation\nAUDIT ENGINE_ON_IDLE\nReview local audit evidence\nAUD20NOV01\nSeverity × confidence × urgency × monetary-stake factor. Unassessed stake uses factor 1; default confidence is a source-count heuristic, not a calibrated probability.\nScore\n1\n· confidence\n0.5\n· stake\nunassessed\nAcknowledgement:\nOPEN\n. Owner action:\nOPEN\n.\nlocal-screen-audit\n·\nSynthetic audit fixture\nAssessed stake in rupees (optional)\nAssessed confidence, 0 to 1 (optional)\nUrgent after (ISO timestamp with timezone, optional)\nAction note or driver's explanation (recorded by owner)\nMark handled\nSnooze one hour\nEscalate\nReopen\nRecord explanation\nCall a driver about this issue\nAction history\nEXPLANATION\n·\n20/11/2026, 02:49:25\nLOCAL UI audit: synthetic idle alert checked.\nEarlier actions\nNewer actions",
+    "Embedded screenshot": "web-owner-record-explanation.png",
+    "Observed at": "2026-11-19T21:19:25.436Z"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "Initial",
+    "Current plan IDs": "M01",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "FAIL - HTTP 426",
+    "Actual visible transcript / notes": "Action cards\nRequest failed with status code 426\nRetry\nFleet & operations\n\nHome\n\nLive\n\nAlerts\n\nMore\n\nDrivers",
+    "Embedded screenshot": "web-manager-initial.png",
+    "Observed at": "2026-11-19T21:14:44.225Z"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "Tab Live",
+    "Current plan IDs": "M04",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "FLEET MANAGER\nFleet positions\nA view of your trucks on the road.\n\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\nanalytics\n:\nPeriod totals are unavailable from the analytics warehouse.\n\n\n2 trucks with reported coordinates · Tap a marker for details\nall\nmoving\nstopped\nidling\noffline\nMARKER\n1\n\n\nOffline\nAUD20NOV04\nAudit Truck 4\n\n13.08000, 80.24500\nTruck GPS\n\nUpdated 202 min ago\nMARKER\n2\n\n\nStatus unavailable\nAUD20NOV03\nAudit Truck 3\n\nLocation unavailable\nSource unavailable\n\nUpdated 29918714 min ago\nMARKER\n3\n\n\nStatus unavailable\nAUD20NOV02\nAudit Truck 2\n\nLocation unavailable\nSource unavailable\n\nUpdated 29918714 min ago\nMARKER\n4\n\n\nOffline\nAUD20NOV01\nAudit Truck 1\n\n13.02000, 80.20000\nTruck GPS\n\nUpdated 22 min ago\n\nHome\n\nLive\n\nAlerts\n\nMore\n\nDrivers",
+    "Embedded screenshot": "web-manager-tab-live.png",
+    "Observed at": "2026-11-19T21:14:45.673Z"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "Tab Drivers",
+    "Current plan IDs": "M06",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "FLEET MANAGER\nDrivers and assignments\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\nanalytics\n:\nPeriod totals are unavailable from the analytics warehouse.\n2\ndrivers · Current assignments\n\nAudit Codriver Audit\nNo active assignment\n\n\nAudit Ramesh Kumar\nTruck linked · MANUAL\n\nPrevious\nNext\nAssign / hand over truck\n\nHome\n\nLive\n\nAlerts\n\nMore\n\nDrivers",
+    "Embedded screenshot": "web-manager-tab-drivers.png",
+    "Observed at": "2026-11-19T21:14:47.253Z"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "Tab Alerts",
+    "Current plan IDs": "M09",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "FLEET MANAGER\nOwner alerts\nThe same owner-alert feed as the web dashboard.\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\nanalytics\n:\nPeriod totals are unavailable from the analytics warehouse.\nPending\nAll\nAcknowledged\n7 days\n30 days\n90 days\nAlert type\nAll alert types\n\nVehicle registration\n\n0\nalerts ·\n0\npending in this view\n\nNo alerts match these filters\nNo records in this branch.\n\nHome\n\nLive\n\nAlerts\n\nMore\n\nDrivers",
+    "Embedded screenshot": "web-manager-tab-alerts.png",
+    "Observed at": "2026-11-19T21:14:48.705Z"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "Tab More",
+    "Current plan IDs": "M20",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "FLEET MANAGER\nFleet essentials\nThe rest of your working toolkit.\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\nanalytics\n:\nPeriod totals are unavailable from the analytics warehouse.\nFleet & people\nVehicles, drivers, and trip history.\n\nFleet\n\n\nDuty board\n\n\nFleet trips\n\n\nTeam & access\n\nRecords & reviews\nOperational follow-up for this branch.\n\nMaintenance\n\n\nFuel review\n\n\nFleet documents\n\n\nAdBlue / DEF\n\nAdministration\n\nMessages & broadcasts\n\n\nCrew & driving\n\n\nLanguage & voice\n\n\nSettings & support\n\n\nHome\n\nLive\n\nAlerts\n\nMore\n\nDrivers",
+    "Embedded screenshot": "web-manager-tab-more.png",
+    "Observed at": "2026-11-19T21:14:50.130Z"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "Fleet",
+    "Current plan IDs": "M04",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nFLEET MANAGER\nYour fleet\nEvery truck, one clear view.\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\nanalytics\n:\nPeriod totals are unavailable from the analytics warehouse.\nSearch vehicles\n\n\n\nOffline\nAUD20NOV04\nAudit Truck 4\n\n13.08000, 80.24500\nTruck GPS\n\nUpdated 202 min ago\n\n\nStatus unavailable\nAUD20NOV03\nAudit Truck 3\n\nLocation unavailable\nSource unavailable\n\nUpdated 29918714 min ago\n\n\nStatus unavailable\nAUD20NOV02\nAudit Truck 2\n\nLocation unavailable\nSource unavailable\n\nUpdated 29918714 min ago\n\n\nOffline\nAUD20NOV01\nAudit Truck 1\n\n13.02000, 80.20000\nTruck GPS\n\nUpdated 22 min ago",
+    "Embedded screenshot": "web-manager-fleet.png",
+    "Observed at": "2026-11-19T21:14:51.969Z"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "Duty board",
+    "Current plan IDs": "M06",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nFLEET MANAGER\nDrivers and assignments\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\nanalytics\n:\nPeriod totals are unavailable from the analytics warehouse.\n2\ndrivers · Current assignments\n\nAudit Codriver Audit\nNo active assignment\n\n\nAudit Ramesh Kumar\nTruck linked · MANUAL\n\nPrevious\nNext\nAssign / hand over truck",
+    "Embedded screenshot": "web-manager-duty-board.png",
+    "Observed at": "2026-11-19T21:14:54.086Z"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "Fleet trips",
+    "Current plan IDs": "M12",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nFLEET MANAGER\nFleet trips\nGPS-detected journeys.\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\nanalytics\n:\nPeriod totals are unavailable from the analytics warehouse.\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n121 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n120 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n123 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n122 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n125 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n124 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n127 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n126 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n129 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n128 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n131 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n130 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n133 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n132 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n135 km · COMPLETE\n\n\nAUDIT Chennai Plant → AUDIT Delivery Depot\n134 km · COMPLETE\n",
+    "Embedded screenshot": "web-manager-fleet-trips.png",
+    "Observed at": "2026-11-19T21:14:56.220Z"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "Team & access",
+    "Current plan IDs": "M19",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nTeam & access\nAdd employee\nRole\nChoose…\n\nAssign a role\nEmployee\nChoose…\n\nAssignment scope\nEnterprise\n\nAssign selected role\nBranch access\nConfigure branch\nChoose…\n",
+    "Embedded screenshot": "web-manager-team-access.png",
+    "Observed at": "2026-11-19T21:14:58.335Z"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "Maintenance",
+    "Current plan IDs": "M10 M11",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nFLEET MANAGER\nWorkshop bills and issues\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\nanalytics\n:\nPeriod totals are unavailable from the analytics warehouse.\nWorkshop bills\n\n1\nrecords · Page\n1\n\nWorkshop bill\nPARTIAL\n\nPrevious\nNext",
+    "Embedded screenshot": "web-manager-maintenance.png",
+    "Observed at": "2026-11-19T21:15:00.453Z"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "Fuel review",
+    "Current plan IDs": "M10",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nFLEET MANAGER\nRecorded fuel\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\nanalytics\n:\nPeriod totals are unavailable from the analytics warehouse.\nThese are saved fuel entries. App-entry approval and rejection are not connected to a verified review workflow.\n14\nrecords · Page\n1\n\nAUDIT PUMP 13\nREVIEWED_OK\n\n\nAUDIT PUMP 12\nNEEDS_REVIEW\n\n\nAUDIT PUMP 11\nREVIEWED_OK\n\n\nAUDIT PUMP 10\nREVIEWED_OK\n\n\nAUDIT PUMP 9\nNEEDS_REVIEW\n\n\nAUDIT PUMP 8\nREVIEWED_OK\n\n\nAUDIT PUMP 7\nREVIEWED_OK\n\n\nAUDIT PUMP 6\nNEEDS_REVIEW\n\n\nAUDIT PUMP 5\nREVIEWED_OK\n\n\nAUDIT PUMP 4\nREVIEWED_OK\n\n\nAUDIT PUMP 3\nNEEDS_REVIEW\n\n\nAUDIT PUMP 2\nREVIEWED_OK\n\n\nAUDIT PUMP 1\nREVIEWED_OK\n\n\nAUDIT PUMP 0\nNEEDS_REVIEW\n\nPrevious\nNext",
+    "Embedded screenshot": "web-manager-fuel-review.png",
+    "Observed at": "2026-11-19T21:15:02.553Z"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "Fleet documents",
+    "Current plan IDs": "M10",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nFLEET MANAGER\nFleet documents\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\nanalytics\n:\nPeriod totals are unavailable from the analytics warehouse.\n5\nrecords · Page\n1\n\nUNKNOWN\nRecorded\n\n\nREPAIR_INVOICE\nRecorded\n\n\nPUC\nRecorded\n\n\nPAN\nRecorded\n\n\nDRIVER_LICENSE\nRecorded\n\nPrevious\nNext",
+    "Embedded screenshot": "web-manager-fleet-documents.png",
+    "Observed at": "2026-11-19T21:15:04.667Z"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "AdBlue / DEF",
+    "Current plan IDs": "M18",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nAdBlue / DEF ledger\nView diesel fuel entries\nSelected-scope ledger: logged AdBlue, telemetry consumption and reconciliation. Each row carries its own coverage window; this is not a daily total.\nRegistered vehicles:\n2\nLogged AdBlue:\n0 L\nDEF burned:\nUnavailable\nSensor fills:\nUnavailable\nFleet dosing:\nUnavailable\nFlagged vehicles:\n0\nSearch vehicle\nAUD20NOV01\nNO_DATA\nLogged:\nUnavailable\n· Burned:\nUnavailable\nSensor fills:\nUnavailable\n· Balance:\nUnavailable\nDosing:\nUnavailable\n· Normal\n3\n–\n6\n%\nShow evidence\nAUD20NOV04\nNO_DATA\nLogged:\nUnavailable\n· Burned:\nUnavailable\nSensor fills:\nUnavailable\n· Balance:\nUnavailable\nDosing:\nUnavailable\n· Normal\n3\n–\n6\n%\nShow evidence\nRefresh",
+    "Embedded screenshot": "web-manager-adblue-def.png",
+    "Observed at": "2026-11-19T21:15:06.750Z"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "Messages & broadcasts",
+    "Current plan IDs": "M16 C01",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nMessages\nYour team, one conversation away.\n\nAUDIT Chennai Team\nGroup · 4 people\n",
+    "Embedded screenshot": "web-manager-messages-broadcasts.png",
+    "Observed at": "2026-11-19T21:15:08.854Z"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "Crew & driving",
+    "Current plan IDs": "M14",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nCrew & driving\nAUD20NOV04\nAUD20NOV03\nAUD20NOV02\nAUD20NOV01",
+    "Embedded screenshot": "web-manager-crew-driving.png",
+    "Observed at": "2026-11-19T21:15:10.952Z"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "Language & voice",
+    "Current plan IDs": "A02 A10",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nLanguage & voice\nLanguage\nEnglish\nहिन्दी\nবাংলা\nTest device voice\nBattery help",
+    "Embedded screenshot": "web-manager-language-voice.png",
+    "Observed at": "2026-11-19T21:15:13.033Z"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "Settings & support",
+    "Current plan IDs": "A12 M20",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nFLEET MANAGER\nSettings & support\n\nAll branches\n\nChennai\n\nBihar\n\nDelhi\nanalytics\n:\nPeriod totals are unavailable from the analytics warehouse.\nRemote notifications require an installed native development or release build.\n\nAudit Manager\nMANAGER\nLog out",
+    "Embedded screenshot": "web-manager-settings-support.png",
+    "Observed at": "2026-11-19T21:15:15.166Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Initial",
+    "Current plan IDs": "D01 N01",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "PLACEHOLDER - navigation unavailable",
+    "Actual visible transcript / notes": "\nNavigate\nNot available yet\nTurn-by-turn navigation is not connected yet. Open your truck or trip records below.\nMy truck\nTrip records\nSOS\n\nNavigate\n\nTrips\n\n4\nInbox\n\nMore\nCapture",
+    "Embedded screenshot": "web-driver-initial.png",
+    "Observed at": "2026-11-19T21:17:31.821Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Tab Trips",
+    "Current plan IDs": "D08",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "HIGHWAY SAHAYAK\nYour journeys\nGPS-detected trips\n\nSOS\nComplete\n19 Nov\nAUDIT Chennai Plant\nAUDIT Delivery Depot\n\n121 km\n· GPS-detected\nComplete\n19 Nov\nAUDIT Chennai Plant\nAUDIT Delivery Depot\n\n120 km\n· GPS-detected\nComplete\n18 Nov\nAUDIT Chennai Plant\nAUDIT Delivery Depot\n\n123 km\n· GPS-detected\nComplete\n18 Nov\nAUDIT Chennai Plant\nAUDIT Delivery Depot\n\n122 km\n· GPS-detected\nComplete\n17 Nov\nAUDIT Chennai Plant\nAUDIT Delivery Depot\n\n125 km\n· GPS-detected\nComplete\n17 Nov\nAUDIT Chennai Plant\nAUDIT Delivery Depot\n\n124 km\n· GPS-detected\nComplete\n16 Nov\nAUDIT Chennai Plant\nAUDIT Delivery Depot\n\n127 km\n· GPS-detected\nComplete\n16 Nov\nAUDIT Chennai Plant\nAUDIT Delivery Depot\n\n126 km\n· GPS-detected\nComplete\n15 Nov\nAUDIT Chennai Plant\nAUDIT Delivery Depot\n\n129 km\n· GPS-detected\nComplete\n15 Nov\nAUDIT Chennai Plant\nAUDIT Delivery Depot\n\n128 km\n· GPS-detected\nComplete\n14 Nov\nAUDIT Chennai Plant\nAUDIT Delivery Depot\n\n131 km\n· GPS-detected\nComplete\n14 Nov\nAUDIT Chennai Plant\nAUDIT Delivery Depot\n\n130 km\n· GPS-detected\nComplete\n13 Nov\nAUDIT Chennai Plant\nAUDIT Delivery Depot\n\n133 km\n· GPS-detected\nComplete\n13 Nov\nAUDIT Chennai Plant\nAUDIT Delivery Depot\n\n132 km\n· GPS-detected\nComplete\n12 Nov\nAUDIT Chennai Plant\nAUDIT Delivery Depot\n\n135 km\n· GPS-detected\nComplete\n12 Nov\nAUDIT Chennai Plant\nAUDIT Delivery Depot\n\n134 km\n· GPS-detected\n\nNavigate\n\nTrips\n\n4\nInbox\n\nMore\nCapture",
+    "Embedded screenshot": "web-driver-tab-trips.png",
+    "Observed at": "2026-11-19T21:17:33.223Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Tab Inbox",
+    "Current plan IDs": "D27",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "HIGHWAY SAHAYAK\nYour inbox\nYour duty, assignment, support and incident updates.\nAll\nUnread\n4\nunread ·\n4\nmatching alerts\n\nSOS / breakdown\nAUD20NOV01 reported breakdown at 02:22 near 13.02, 80.2.\nCritical · Tap to acknowledge\n\n\nAUDIT support reply\nSynthetic local alert for app screen validation\nInfo · Tap to acknowledge\n\n\nAUDIT rest reminder\nSynthetic local alert for app screen validation\nInfo · Tap to acknowledge\n\n\nAUDIT licence expires soon\nSynthetic local alert for app screen validation\nInfo · Tap to acknowledge\n\nPrevious\nPage\n1\nNext\n\nNavigate\n\nTrips\n\n4\nInbox\n\nMore\nCapture",
+    "Embedded screenshot": "web-driver-tab-inbox.png",
+    "Observed at": "2026-11-19T21:17:34.641Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Tab More",
+    "Current plan IDs": "D36",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "HIGHWAY SAHAYAK\nEverything else\nYour essentials, in one place.\nTruck & trips\n\nCrew & driving\n\n\nERP trips\n\n\nMy truck\n\n\nLocation sharing\n\nMessages & records\n\nMessages\n\n\nDocuments\n\n\nFuel history\n\n\nMy issues\n\n\nWorkshop bills\n\n\nSupport\n\nAccount\n\nExperience settings\n\n\nDriver help\n\n\nProfile\n\n\nNavigate\n\nTrips\n\n4\nInbox\n\nMore\nCapture",
+    "Embedded screenshot": "web-driver-tab-more.png",
+    "Observed at": "2026-11-19T21:17:36.040Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Crew & driving",
+    "Current plan IDs": "D05",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "FAIL - HTTP 426",
+    "Actual visible transcript / notes": "\nCrew & driving\nDriving confirmations are crew statements, separate from truck pairing. Actions take effect when confirmed online; waiting time stays unconfirmed.\nRequest failed with status code 426\nRetry",
+    "Embedded screenshot": "web-driver-crew-driving.png",
+    "Observed at": "2026-11-19T21:15:41.172Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "ERP trips",
+    "Current plan IDs": "D10",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nERP trips & delivery documents\nTRIP/26-27/0001\nAUD20NOV01\n·\nPLACED\nMumbai\n→\nPune\nPage\n1\n· 1 trips\nPrevious\nNext",
+    "Embedded screenshot": "web-driver-erp-trips.png",
+    "Observed at": "2026-11-19T21:15:43.223Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "My truck",
+    "Current plan IDs": "D03",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "FAIL - HTTP 426",
+    "Actual visible transcript / notes": "\nHIGHWAY SAHAYAK\nMy truck\nYour vehicle. Your working day.\nCrew & driving\nRequest failed with status code 426\nRetry\nOpen crew & handover\n\n\nOffline\nAUD20NOV01\nAudit Truck 1\n\nlast seen 23 min ago\nLast known position\n\nUpdated 23 min ago\n\nOdometer\nUnavailable\n\nLocation sharing\nUnderstand where this position comes from\n\n\nChange truck",
+    "Embedded screenshot": "web-driver-my-truck.png",
+    "Observed at": "2026-11-19T21:15:45.278Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Location sharing",
+    "Current plan IDs": "A07",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nHIGHWAY SAHAYAK\nLocation sharing\n\nSharing: off\nNo successful send recorded in this session\n0 recorded fixes waiting to send.\nFailed sends stay on this device for retry under your account.\nForeground sharing works while this app is open. Background sharing requires a native development build and Always location permission; Expo Go and browsers cannot provide this mode.\nShare while app is open\nStop sharing",
+    "Embedded screenshot": "web-driver-location-sharing.png",
+    "Observed at": "2026-11-19T21:15:47.343Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Messages",
+    "Current plan IDs": "C01",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nMessages\nYour team, one conversation away.\n\nAUDIT Owner and Ramesh\nDirect message · 2 people\n\n\nAUDIT Chennai Team\nGroup · 4 people\n",
+    "Embedded screenshot": "web-driver-messages.png",
+    "Observed at": "2026-11-19T21:15:49.395Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Conversation",
+    "Current plan IDs": "C02",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nAUDIT Owner and Ramesh\nDirect conversation\n·\nActive\n·\n1\nother participants\nFleet colleague\n·\n20/11/2026, 02:20:52\nAUDIT: Please confirm you can see this local test message.\nAcknowledge message\nYou\n·\n20/11/2026, 02:20:52\nAUDIT: Driver reply saved in local backend.\n1\n/\n1\nfetched ·\n1\nread ·\n0\nacknowledged ·\n0\nskipped\nDelivery details\nFleet colleague\n·\n20/11/2026, 02:41:44\nLOCAL UI audit message 2026-11-19T21:11:44.695Z\nAcknowledge message\nFleet colleague\n·\n20/11/2026, 02:43:25\nLOCAL UI audit message 2026-11-19T21:13:25.529Z\nAcknowledge message\nMessage\nSend message\n\nPhoto\n\nVoice\n\nLocation\n\nUpdate",
+    "Embedded screenshot": "web-driver-conversation.png",
+    "Observed at": "2026-11-19T21:15:50.792Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Documents",
+    "Current plan IDs": "D15",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nHIGHWAY SAHAYAK\nDocuments\nAdd document\nDocument owner\nMy documents\n\n2\nrecords · Page\n1\n\nPAN\nVerified\n\n\nDRIVER_LICENSE\nNot verified · Expires 26/11/2026\n\nPrevious page\nNext page",
+    "Embedded screenshot": "web-driver-documents.png",
+    "Observed at": "2026-11-19T21:17:57.011Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Fuel history",
+    "Current plan IDs": "D23",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nHIGHWAY SAHAYAK\nFuel history\nAdd fuel\n14\nrecords · Page\n1\n\nAUDIT PUMP 13\nREVIEWED_OK\n\n\nAUDIT PUMP 12\nNEEDS_REVIEW\n\n\nAUDIT PUMP 11\nREVIEWED_OK\n\n\nAUDIT PUMP 10\nREVIEWED_OK\n\n\nAUDIT PUMP 9\nNEEDS_REVIEW\n\n\nAUDIT PUMP 8\nREVIEWED_OK\n\n\nAUDIT PUMP 7\nREVIEWED_OK\n\n\nAUDIT PUMP 6\nNEEDS_REVIEW\n\n\nAUDIT PUMP 5\nREVIEWED_OK\n\n\nAUDIT PUMP 4\nREVIEWED_OK\n\n\nAUDIT PUMP 3\nNEEDS_REVIEW\n\n\nAUDIT PUMP 2\nREVIEWED_OK\n\n\nAUDIT PUMP 1\nREVIEWED_OK\n\n\nAUDIT PUMP 0\nNEEDS_REVIEW\n\nPrevious page\nNext page",
+    "Embedded screenshot": "web-driver-fuel-history.png",
+    "Observed at": "2026-11-19T21:17:53.172Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "My issues",
+    "Current plan IDs": "D25",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nHIGHWAY SAHAYAK\nMy issues\nAdd issue\n1\nrecords · Page\n1\n\nLOCAL dummy tyre issue; no dispatch requested\nOPEN\n\nPrevious page\nNext page",
+    "Embedded screenshot": "web-driver-my-issues.png",
+    "Observed at": "2026-11-19T21:17:37.763Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Workshop bills",
+    "Current plan IDs": "D24",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nHIGHWAY SAHAYAK\nWorkshop bills\nAdd workshop bill\n1\nrecords · Page\n1\n\nWorkshop bill\nPARTIAL · Awaiting review\n\nPrevious page\nNext page",
+    "Embedded screenshot": "web-driver-workshop-bills.png",
+    "Observed at": "2026-11-19T21:18:00.822Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Support",
+    "Current plan IDs": "D26",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nHIGHWAY SAHAYAK\nSupport\nAdd support ticket\n1\nrecords · Page\n1\n\nAUDIT fuel receipt question\nOPEN\n\nPrevious page\nNext page",
+    "Embedded screenshot": "web-driver-support.png",
+    "Observed at": "2026-11-19T21:17:45.478Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Experience settings",
+    "Current plan IDs": "A02 A10",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nLanguage & voice\nLanguage\nEnglish\nहिन्दी\nবাংলা\nTest device voice\nBattery help",
+    "Embedded screenshot": "web-driver-experience-settings.png",
+    "Observed at": "2026-11-19T21:16:03.694Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Driver help",
+    "Current plan IDs": "D42",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "FAIL - HTTP 426",
+    "Actual visible transcript / notes": "\nHelp\nRequest failed with status code 426\nRetry",
+    "Embedded screenshot": "web-driver-driver-help.png",
+    "Observed at": "2026-11-19T21:16:05.805Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Profile",
+    "Current plan IDs": "D35",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nHIGHWAY SAHAYAK\nYour profile\nYour account and local preferences.\n\nAudit Ramesh\nDRIVER · Signed-in account\n\nOrganization\nYour signed-in organization\ndisplay preference\nSave preference\nThis preference stays for this session and updates your Home greeting. Your account name is unchanged.\nRemote notifications require an installed native development or release build.\n\nLanguage\nEnglish\n\nAppearance\nNova light · Current theme\nLog out",
+    "Embedded screenshot": "web-driver-profile.png",
+    "Observed at": "2026-11-19T21:16:07.894Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "New truck issue",
+    "Current plan IDs": "D25",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nHIGHWAY SAHAYAK\nReport issue\nDescribe the issue\n\nUpload\nattachment\nOptional photo or PDF.\n\nCamera\n\nGallery\n\nUpload a PDF instead\nSave entry",
+    "Embedded screenshot": "web-driver-new-truck-issue.png",
+    "Observed at": "2026-11-19T21:17:39.127Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Save truck issue",
+    "Current plan IDs": "D25",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "PASS - UI write and Mongo persistence verified",
+    "Actual visible transcript / notes": "\nHIGHWAY SAHAYAK\nReport issue\nSaved on the server\nYour entry was confirmed by the server.\nDone",
+    "Embedded screenshot": "web-driver-save-truck-issue.png",
+    "Observed at": "2026-11-19T21:17:40.538Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Issues after save",
+    "Current plan IDs": "D25",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nHIGHWAY SAHAYAK\nMy issues\nAdd issue\n2\nrecords · Page\n1\n\nLOCAL UI audit dummy submission; no real fault or help requested.\nOPEN\n\n\nLOCAL dummy tyre issue; no dispatch requested\nOPEN\n\nPrevious page\nNext page",
+    "Embedded screenshot": "web-driver-issues-after-save.png",
+    "Observed at": "2026-11-19T21:17:43.417Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "New support ticket",
+    "Current plan IDs": "D26",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nHIGHWAY SAHAYAK\nNew support ticket\nSubject\nDescribe the problem\nCategory\nOTHER\n\n\nUpload\nattachment\nOptional photo or PDF.\n\nCamera\n\nGallery\n\nUpload a PDF instead\nSave entry",
+    "Embedded screenshot": "web-driver-new-support-ticket.png",
+    "Observed at": "2026-11-19T21:17:46.874Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Save support ticket",
+    "Current plan IDs": "D26",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "PASS - UI write and Mongo persistence verified",
+    "Actual visible transcript / notes": "\nHIGHWAY SAHAYAK\nNew support ticket\nSaved on the server\nYour entry was confirmed by the server.\nDone",
+    "Embedded screenshot": "web-driver-save-support-ticket.png",
+    "Observed at": "2026-11-19T21:17:48.295Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Support after save",
+    "Current plan IDs": "D26",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nHIGHWAY SAHAYAK\nSupport\nAdd support ticket\n2\nrecords · Page\n1\n\nLOCAL UI audit support request\nOPEN\n\n\nAUDIT fuel receipt question\nOPEN\n\nPrevious page\nNext page",
+    "Embedded screenshot": "web-driver-support-after-save.png",
+    "Observed at": "2026-11-19T21:17:51.167Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Add fuel form",
+    "Current plan IDs": "D22",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "Back\nLog fuel entry\nVehicle\nAUD20NOV01\n\nDriver:\nAudit Ramesh Kumar\nPrevious odometer:\n49200\nkm\nPrevious refuel:\n19/11/2026, 05:00:00\n\nUpload\nfuel slip\n\nCamera\n\nGallery\nFuel type: Diesel\nFilling type\nPartial fill\n\nLitres\nRate per litre (₹)\nPump location\nRefuel date and time\nSearch source location\nSource location\nChoose…\n\nSearch destination location\nDestination location\nChoose…\n\nSave entry",
+    "Embedded screenshot": "web-driver-add-fuel-form.png",
+    "Observed at": "2026-11-19T21:17:54.539Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Add document form",
+    "Current plan IDs": "D14 D15",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nHIGHWAY SAHAYAK\nUpload document\n\nUpload\ndocument\nA clear photo or PDF of the original document.\n\nCamera\n\nGallery\n\nUpload a PDF instead\nDocument owner\nMy document\n\nDocument type\nDetect from photo\n\nExpiry date (optional)\nSave entry",
+    "Embedded screenshot": "web-driver-add-document-form.png",
+    "Observed at": "2026-11-19T21:17:58.385Z"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Add workshop bill form",
+    "Current plan IDs": "D24",
+    "Platform": "Web (isolated Chrome with localhost CORS bypass)",
+    "Observed result": "OPENED - deeper behavior unverified",
+    "Actual visible transcript / notes": "\nHIGHWAY SAHAYAK\nWorkshop bill\n\nUpload\nworkshop bill\nThe original workshop bill. OCR proposes values for your fleet to review.\n\nCamera\n\nGallery\n\nUpload a PDF instead\nUpload bill for OCR",
+    "Embedded screenshot": "web-driver-add-workshop-bill-form.png",
+    "Observed at": "2026-11-19T21:18:02.202Z"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Daily report",
+    "Current plan IDs": "O01",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "PASS - known report fixtures visible",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "02-owner-today.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Capture queue",
+    "Current plan IDs": "O13",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "FAIL - HTTP 426",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "04-issue-owner-capture-queue.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Notification registration",
+    "Current plan IDs": "A12",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "LIMITATION - simulator/native push unavailable",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "06-issue-push-unavailable.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "MANAGER",
+    "Screen / action": "Action cards",
+    "Current plan IDs": "M01",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "FAIL - HTTP 426",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "08-issue-manager-426.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Trip list",
+    "Current plan IDs": "D08",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "PASS - seeded journeys visible",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "12-driver-trips.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Inbox",
+    "Current plan IDs": "D27",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "PASS - seeded alerts/unread visible",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "13-driver-inbox.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Crew",
+    "Current plan IDs": "D05",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "FAIL - HTTP 426",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "14-issue-driver-crew.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Trip detail",
+    "Current plan IDs": "D09",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "PASS - seeded trip/fuel detail visible",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "15-driver-trip-detail.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Personal documents",
+    "Current plan IDs": "D15",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "PASS - two personal records visible",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "17-driver-documents.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Help",
+    "Current plan IDs": "D42",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "FAIL - HTTP 426",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "18-driver-help.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Navigate",
+    "Current plan IDs": "N01",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "PLACEHOLDER - navigation unavailable",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "21-issue-navigation-unavailable.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "DRIVER",
+    "Screen / action": "Capture menu",
+    "Current plan IDs": "D13 D36",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "PARTIAL - working menu; planned tools missing",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "22-driver-capture-menu.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "FIELD_AGENT",
+    "Screen / action": "Empty-organisation Home",
+    "Current plan IDs": "F01",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "PASS - correct empty organisation context",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "23-agent-initial.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "FIELD_AGENT",
+    "Screen / action": "Organisation selector",
+    "Current plan IDs": "F02",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "FAIL - null data render crash",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "26-issue-agent-org-crash.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "FIELD_AGENT",
+    "Screen / action": "Fuel log empty state",
+    "Current plan IDs": "F05",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "FAIL - hard-coded August/Improving claims",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "27-agent-fuel-history.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "FIELD_AGENT",
+    "Screen / action": "Vehicle picker empty state",
+    "Current plan IDs": "F03",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "PASS - no trucks in secondary organisation",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "28-agent-vehicle-picker.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "FIELD_AGENT",
+    "Screen / action": "Home with seeded records",
+    "Current plan IDs": "F01",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "PASS - populated audit organisation",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "29-agent-primary-home.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "FIELD_AGENT",
+    "Screen / action": "Populated truck picker",
+    "Current plan IDs": "F03",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "PASS - four audit trucks selectable",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "30-agent-primary-vehicles.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "FIELD_AGENT",
+    "Screen / action": "Fuel form",
+    "Current plan IDs": "F04",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "PARTIAL - opens but selected truck dropped",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "34-issue-agent-selected-truck-lost.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "FIELD_AGENT",
+    "Screen / action": "Logout",
+    "Current plan IDs": "F07",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "FAIL - server revocation HTTP 400",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "32-issue-agent-logout-org-header.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "FIELD_AGENT",
+    "Screen / action": "Fuel log with records",
+    "Current plan IDs": "F05",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "PARTIAL - records visible; date/trend claims wrong",
+    "Actual visible transcript / notes": "Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.",
+    "Embedded screenshot": "35-agent-populated-fuel-log.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Final daily report",
+    "Current plan IDs": "O01",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "PASS - refreshed known report fixtures visible",
+    "Actual visible transcript / notes": "See native flow, screenshot and map hierarchy. Real GPS movement/trail accuracy not tested.",
+    "Embedded screenshot": "41-owner-final-today.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Native live fleet",
+    "Current plan IDs": "O20",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "PASS - list/map preview opened",
+    "Actual visible transcript / notes": "See native flow, screenshot and map hierarchy. Real GPS movement/trail accuracy not tested.",
+    "Embedded screenshot": "37-owner-live-native.png",
+    "Observed at": "2026-11-20 IST"
+  },
+  {
+    "Role": "OWNER",
+    "Screen / action": "Native full-screen map",
+    "Current plan IDs": "O20",
+    "Platform": "iOS 26.5 Simulator / Expo Go",
+    "Observed result": "PASS - map exit control verified",
+    "Actual visible transcript / notes": "See native flow, screenshot and map hierarchy. Real GPS movement/trail accuracy not tested.",
+    "Embedded screenshot": "40-owner-full-map.png",
+    "Observed at": "2026-11-20 IST"
+  }
+]

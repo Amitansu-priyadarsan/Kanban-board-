@@ -1,0 +1,2758 @@
+Role,Screen / action,Current plan IDs,Platform,Observed result,Actual visible transcript / notes,Embedded screenshot,Observed at
+OWNER,Initial,O01,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"Audit’s workspace
+Aaj ka hisaab
+
+
+
+Authorized branches
+
+DAILY REPORT
+Thu, 19 Nov
+· IST
+
+
+Yesterday
+
+Summary
+Money
+Work
+People
+Fleet right now
+
+Truck telemetry
+0
+/
+4
+trucks moving
+
+0
+Parked
+0
+Idling
+4
+Offline
+0
+Unknown
+Latest observation 02:22 am IST
+The day at a glance
+Selected day
+
+
+Completed trips
+2
+Marked complete
+
+
+Observed distance
+—
+Data unavailable
+
+
+Diesel purchases
+₹18,492
+Recorded, not paid
+
+
+Driver bills
+₹0
+Submitted for review
+Needs your review
+View inbox
+
+Fuel captures
+Current review queue
+5
+
+
+Driver bills
+Current review queue
+1
+
+
+Papers & renewals
+Current review queue
+2
+
+Your workspace
+
+Messages
+
+Reviews
+
+Crew
+
+Trends
+
+Know what’s behind the numbers
+Coverage, source times & missing data
+
+
+Report checked
+02:49 am
+IST · pull to refresh
+About this report
+
+Today
+
+Live
+
+6
+Alerts
+
+More
+
+Fleet",web-owner-initial.png,2026-11-19T21:19:15.206Z
+OWNER,Tab Live,O20,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"OWNER
+Fleet positions
+A view of your trucks on the road.
+
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+
+
+4 trucks with reported coordinates · Tap a marker for details
+all
+moving
+stopped
+idling
+offline
+MARKER
+1
+
+
+Offline
+AUD20NOV04
+Audit Truck 4
+
+13.08000, 80.24500
+Truck GPS
+
+Updated 207 min ago
+MARKER
+2
+
+
+Offline
+AUD20NOV03
+Audit Truck 3
+
+13.06000, 80.23000
+Truck GPS
+
+Updated 27 min ago
+MARKER
+3
+
+
+Offline
+AUD20NOV02
+Audit Truck 2
+
+13.04000, 80.21500
+Truck GPS
+
+Updated 27 min ago
+MARKER
+4
+
+
+Offline
+AUD20NOV01
+Audit Truck 1
+
+13.02000, 80.20000
+Truck GPS
+
+Updated 27 min ago
+
+Today
+
+Live
+
+6
+Alerts
+
+More
+
+Fleet",web-owner-tab-live.png,2026-11-19T21:19:16.550Z
+OWNER,Tab Fleet,O20,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"OWNER
+Your fleet
+Every truck, one clear view.
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+Search vehicles
+
+
+
+Offline
+AUD20NOV04
+Audit Truck 4
+
+13.08000, 80.24500
+Truck GPS
+
+Updated 207 min ago
+
+
+Offline
+AUD20NOV03
+Audit Truck 3
+
+13.06000, 80.23000
+Truck GPS
+
+Updated 27 min ago
+
+
+Offline
+AUD20NOV02
+Audit Truck 2
+
+13.04000, 80.21500
+Truck GPS
+
+Updated 27 min ago
+
+
+Offline
+AUD20NOV01
+Audit Truck 1
+
+13.02000, 80.20000
+Truck GPS
+
+Updated 27 min ago
+
+Today
+
+Live
+
+6
+Alerts
+
+More
+
+Fleet",web-owner-tab-fleet.png,2026-11-19T21:19:17.966Z
+OWNER,Tab Alerts,O10,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"Owner inbox
+The things that need your attention.
+Top priority
+All items
+6
+retained items
+6 active
+Urgent
+open
+SOS pressed
+AUD20NOV01
+Review case
+
+Urgent
+open
+AUDIT DRIVER_INCIDENT
+AUD20NOV01
+Review case
+
+Needs review
+open
+AUDIT DOCUMENT_EXPIRING
+AUD20NOV01
+Review case
+
+Needs review
+open
+AUDIT ENGINE_ON_IDLE
+AUD20NOV01
+Review case
+
+Needs review
+open
+Papers expired or due soon
+AUD20NOV01
+Review case
+
+Needs review
+open
+Papers expired or due soon
+Audit Ramesh Kumar
+Review case
+
+
+Today
+
+Live
+
+6
+Alerts
+
+More
+
+Fleet",web-owner-tab-alerts.png,2026-11-19T21:19:19.400Z
+OWNER,Tab More,O26,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"Your workspace
+Fleet, finances and your team.
+App
+
+Language & voice
+
+Fleet & people
+
+Driver roster
+
+
+Crew & driving
+
+
+Trip history
+
+
+Fuel & AdBlue
+
+
+Maintenance
+
+Money & records
+
+Capture reviews
+
+
+Billing & cash flow
+
+
+Fleet documents
+
+Conversations
+
+Messages & broadcasts
+
+
+Calls & follow-ups
+
+
+Owner inbox
+
+Your workspace
+
+Fleet home summary
+
+
+Today's business report
+
+
+Reports & trends
+
+
+Morning report
+
+
+Team & access
+
+
+Settings & support
+
+
+Today
+
+Live
+
+6
+Alerts
+
+More
+
+Fleet",web-owner-tab-more.png,2026-11-19T21:19:20.801Z
+OWNER,Language & voice,A02 A10,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+Language & voice
+Language
+English
+हिन्दी
+বাংলা
+Test device voice
+Battery help",web-owner-language-voice.png,2026-11-19T21:13:03.673Z
+OWNER,Driver roster,M06 O20,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+OWNER
+Drivers and assignments
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+4
+drivers · Current assignments
+
+Audit Codriver Audit
+No active assignment
+
+
+Audit Mahesh Yadav
+Truck linked · MANUAL
+
+
+Audit Suresh Singh
+Truck linked · MANUAL
+
+
+Audit Ramesh Kumar
+Truck linked · MANUAL
+
+Previous
+Next
+Assign / hand over truck",web-owner-driver-roster.png,2026-11-19T21:13:05.772Z
+OWNER,Crew & driving,M14,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+Crew & driving
+AUD20NOV04
+AUD20NOV03
+AUD20NOV02
+AUD20NOV01",web-owner-crew-driving.png,2026-11-19T21:13:07.895Z
+OWNER,Trip history,O04,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+Fleet trip history
+16
+matching GPS-detected trips · page
+1
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+121 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+120 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+123 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+122 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+125 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+124 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+127 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+126 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+129 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+128 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+131 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+130 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+133 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+132 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+135 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+134 km · COMPLETE
+
+Previous page
+Next page",web-owner-trip-history.png,2026-11-19T21:13:09.956Z
+OWNER,Fuel & AdBlue,O22,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+AdBlue / DEF ledger
+View diesel fuel entries
+Selected-scope ledger: logged AdBlue, telemetry consumption and reconciliation. Each row carries its own coverage window; this is not a daily total.
+Registered vehicles:
+4
+Logged AdBlue:
+0 L
+DEF burned:
+Unavailable
+Sensor fills:
+Unavailable
+Fleet dosing:
+Unavailable
+Flagged vehicles:
+0
+Search vehicle
+AUD20NOV01
+NO_DATA
+Logged:
+Unavailable
+· Burned:
+Unavailable
+Sensor fills:
+Unavailable
+· Balance:
+Unavailable
+Dosing:
+Unavailable
+· Normal
+3
+–
+6
+%
+Show evidence
+AUD20NOV02
+NO_DATA
+Logged:
+Unavailable
+· Burned:
+Unavailable
+Sensor fills:
+Unavailable
+· Balance:
+Unavailable
+Dosing:
+Unavailable
+· Normal
+3
+–
+6
+%
+Show evidence
+AUD20NOV03
+NO_DATA
+Logged:
+Unavailable
+· Burned:
+Unavailable
+Sensor fills:
+Unavailable
+· Balance:
+Unavailable
+Dosing:
+Unavailable
+· Normal
+3
+–
+6
+%
+Show evidence
+AUD20NOV04
+NO_DATA
+Logged:
+Unavailable
+· Burned:
+Unavailable
+Sensor fills:
+Unavailable
+· Balance:
+Unavailable
+Dosing:
+Unavailable
+· Normal
+3
+–
+6
+%
+Show evidence
+Refresh",web-owner-fuel-adblue.png,2026-11-19T21:13:12.040Z
+OWNER,Maintenance,O23,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+OWNER
+Workshop bills and issues
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+Workshop bills
+
+1
+records · Page
+1
+
+Workshop bill
+PARTIAL
+
+Previous
+Next",web-owner-maintenance.png,2026-11-19T21:13:14.143Z
+OWNER,Capture reviews,O13,Web (isolated Chrome with localhost CORS bypass),FAIL - HTTP 426,"
+Capture reviews
+Request failed with status code 426
+Retry",web-owner-capture-reviews.png,2026-11-19T21:13:16.243Z
+OWNER,Billing & cash flow,O05,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+Billing and cash evidence
+2026-11-19
+IST. Billed margin excludes overheads; payments and purchases are separate.
+
+Freight billed
+
+
+Purchase bills
+
+
+Supplier invoices
+
+
+Cash received
+
+
+Cash paid
+
+
+Outstanding receivables now
+",web-owner-billing-cash-flow.png,2026-11-19T21:13:18.396Z
+OWNER,Fleet documents,O24,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+OWNER
+Fleet documents
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+5
+records · Page
+1
+
+UNKNOWN
+Recorded
+
+
+REPAIR_INVOICE
+Recorded
+
+
+PUC
+Recorded
+
+
+PAN
+Recorded
+
+
+DRIVER_LICENSE
+Recorded
+
+Previous
+Next",web-owner-fleet-documents.png,2026-11-19T21:13:20.542Z
+OWNER,Messages & broadcasts,C01,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+Messages
+Your team, one conversation away.
+
+
+AUDIT Owner and Ramesh
+Direct message · 2 people
+
+
+AUDIT scheduled future broadcast
+Broadcast · 3 people
+Scheduled
+
+
+AUDIT Chennai Team
+Group · 4 people
+",web-owner-messages-broadcasts.png,2026-11-19T21:13:22.690Z
+OWNER,Conversation,C02,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+AUDIT Owner and Ramesh
+Direct conversation
+·
+Active
+·
+1
+other participants
+You
+·
+20/11/2026, 02:20:52
+AUDIT: Please confirm you can see this local test message.
+0
+/
+1
+fetched ·
+0
+read ·
+0
+acknowledged ·
+0
+skipped
+Delivery details
+Fleet colleague
+·
+20/11/2026, 02:20:52
+AUDIT: Driver reply saved in local backend.
+Acknowledge message
+You
+·
+20/11/2026, 02:41:44
+LOCAL UI audit message 2026-11-19T21:11:44.695Z
+0
+/
+1
+fetched ·
+0
+read ·
+0
+acknowledged ·
+0
+skipped
+Delivery details
+Message
+Send message
+
+Photo
+
+Voice
+
+Location
+
+Update",web-owner-conversation.png,2026-11-19T21:13:24.095Z
+OWNER,Send message,C02,Web (isolated Chrome with localhost CORS bypass),PASS - UI write and Mongo persistence verified,"
+AUDIT Owner and Ramesh
+Direct conversation
+·
+Active
+·
+1
+other participants
+You
+·
+20/11/2026, 02:20:52
+AUDIT: Please confirm you can see this local test message.
+0
+/
+1
+fetched ·
+0
+read ·
+0
+acknowledged ·
+0
+skipped
+Delivery details
+Fleet colleague
+·
+20/11/2026, 02:20:52
+AUDIT: Driver reply saved in local backend.
+Acknowledge message
+You
+·
+20/11/2026, 02:41:44
+LOCAL UI audit message 2026-11-19T21:11:44.695Z
+0
+/
+1
+fetched ·
+0
+read ·
+0
+acknowledged ·
+0
+skipped
+Delivery details
+You
+·
+20/11/2026, 02:43:25
+LOCAL UI audit message 2026-11-19T21:13:25.529Z
+0
+/
+1
+fetched ·
+0
+read ·
+0
+acknowledged ·
+0
+skipped
+Delivery details
+Message
+Send message
+
+Photo
+
+Voice
+
+Location
+
+Update",web-owner-send-message.png,2026-11-19T21:13:25.529Z
+OWNER,Calls & follow-ups,O12,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+Calls and outcomes
+Driver
+Choose…
+
+Open dialer
+Returning from the dialer does not prove that a call connected. Record the outcome yourself.
+
++919000012010
+FOLLOW_UP · 20/11/2026, 02:20:52
+
+Previous calls
+More calls",web-owner-calls-follow-ups.png,2026-11-19T21:13:29.277Z
+OWNER,Owner inbox,O10,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+Owner inbox
+The things that need your attention.
+Top priority
+All items
+6
+retained items
+6 active
+Urgent
+open
+SOS pressed
+AUD20NOV01
+Review case
+
+Urgent
+open
+AUDIT DRIVER_INCIDENT
+AUD20NOV01
+Review case
+
+Needs review
+open
+AUDIT DOCUMENT_EXPIRING
+AUD20NOV01
+Review case
+
+Needs review
+open
+AUDIT ENGINE_ON_IDLE
+AUD20NOV01
+Review case
+
+Needs review
+open
+Papers expired or due soon
+AUD20NOV01
+Review case
+",web-owner-owner-inbox.png,2026-11-19T21:19:22.613Z
+OWNER,Fleet home summary,O21,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+OWNER
+Your fleet, in focus.
+Live positions, drivers, and recent trips.
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+Authorized branches
+· LOADED RECORDS
+4
+trucks.
+0
+moving ·
+4
+offline
+Status unavailable: 0
+Explore fleet
+
+4
+Drivers
+In selected branch
+
+0
+Pending fuel slips
+In the selected branch
+Recent trips
+Latest GPS-detected journeys.
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+AUD20NOV01 · 121 km · 19 Nov · Complete
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+AUD20NOV01 · 120 km · 19 Nov · Complete
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+AUD20NOV01 · 123 km · 18 Nov · Complete
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+AUD20NOV01 · 122 km · 18 Nov · Complete
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+AUD20NOV01 · 125 km · 17 Nov · Complete
+
+View all trips
+Keep things moving
+
+Duty board
+Driving, resting and truck links
+
+
+Review fuel slips
+0 pending fuel slips
+
+
+Maintenance & issues
+Review workshop bills and vehicle issues
+",web-owner-fleet-home-summary.png,2026-11-19T21:13:33.560Z
+OWNER,Today's business report,O01,Web (isolated Chrome with localhost CORS bypass),PARTIAL - report opens without visible exit,"Audit’s workspace
+Aaj ka hisaab
+
+
+
+Authorized branches
+
+DAILY REPORT
+Thu, 19 Nov
+· IST
+
+
+Yesterday
+
+Summary
+Money
+Work
+People
+Fleet right now
+
+Truck telemetry
+0
+/
+4
+trucks moving
+
+0
+Parked
+0
+Idling
+4
+Offline
+0
+Unknown
+Latest observation 02:22 am IST
+The day at a glance
+Selected day
+
+
+Completed trips
+2
+Marked complete
+
+
+Observed distance
+—
+Data unavailable
+
+
+Diesel purchases
+₹18,492
+Recorded, not paid
+
+
+Driver bills
+₹0
+Submitted for review
+Needs your review
+View inbox
+
+Fuel captures
+Current review queue
+5
+
+
+Driver bills
+Current review queue
+1
+
+
+Papers & renewals
+Current review queue
+2
+
+Your workspace
+
+Messages
+
+Reviews
+
+Crew
+
+Trends
+
+Know what’s behind the numbers
+Coverage, source times & missing data
+
+
+Report checked
+02:43 am
+IST · pull to refresh
+About this report",web-owner-today-s-business-report.png,2026-11-19T21:13:35.670Z
+OWNER,Reports & trends,O06,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+Trends and same weekday
+2026-11-06
+to
+2026-11-19
+IST · selected branch
+Each day uses the same filter as that day's report section, over the current vehicle and driver scope. Late entries and rebuilt records can change earlier days.
+Seven-day averages are per day. A comparison is not marked comparable when the selected day is partial or a compared day has missing inputs.
+Trips marked complete
+count
+:
+2 records
+Same weekday (
+2026-11-12
+):
+2 records
+· 7-day average:
+2 records
+laden Km
+:
+241 km
+Same weekday (
+2026-11-12
+):
+269 km
+· 7-day average:
+257 km
+Show 14 days
+Recorded diesel purchases
+count
+:
+2 records
+Same weekday (
+2026-11-12
+):
+0 records
+· 7-day average:
+1.43 records
+litres
+:
+201 L
+Same weekday (
+2026-11-12
+):
+0 L
+· 7-day average:
+153.86 L
+amount
+:
+₹18,492
+Same weekday (
+2026-11-12
+):
+₹0
+· 7-day average:
+₹14,154.86
+Show 14 days
+Recorded AdBlue purchases
+count
+:
+0 records
+Same weekday (
+2026-11-12
+):
+0 records
+· 7-day average:
+0.29 records
+litres
+:
+0 L
+Same weekday (
+2026-11-12
+):
+0 L
+· 7-day average:
+4.29 L
+amount
+:
+₹0
+Same weekday (
+2026-11-12
+):
+₹0
+· 7-day average:
+₹192.86
+Show 14 days
+Driver bills submitted
+count
+:
+0 records
+Same weekday (
+2026-11-12
+):
+0 records
+· 7-day average:
+0 records
+amount
+:
+₹0
+Same weekday (
+2026-11-12
+):
+₹0
+· 7-day average:
+₹0
+Show 14 days
+Advances paid
+count
+:
+1 records
+Same weekday (
+2026-11-12
+):
+0 records
+· 7-day average:
+0 records
+amount
+:
+₹3,000
+Same weekday (
+2026-11-12
+):
+₹0
+· 7-day average:
+₹0
+Show 14 days
+Recorded toll charges
+Not enabled
+This source is not enabled for your organisation.
+Imported fuel register
+count
+:
+0 records
+Same weekday (
+2026-11-12
+):
+0 records
+· 7-day average:
+0 records
+litres
+:
+0 L
+Same weekday (
+2026-11-12
+):
+0 L
+· 7-day average:
+0 L
+Show 14 days
+Plant turnaround
+count
+:
+0 records
+Same weekday (
+2026-11-12
+):
+0 records
+· 7-day average:
+0 records
+average Minutes
+:
+No records
+Same weekday (
+2026-11-12
+):
+No records
+· 7-day average:
+Unavailable
+Show 14 days
+Incidents raised in the day
+count
+:
+0 records
+Same weekday (
+2026-11-12
+):
+0 records
+· 7-day average:
+0 records
+Incidents created in the selected day, whatever their current status. Open incidents now are a separate section.
+Show 14 days
+Route deviations detected in the day
+count
+:
+0 records
+Same weekday (
+2026-11-12
+):
+0 records
+· 7-day average:
+0 records
+Route deviations detected in the selected day, whatever their current review status.
+Show 14 days
+Drivers paired during the day
+count
+:
+3 records
+Same weekday (
+2026-11-12
+):
+0 records
+· 7-day average:
+0 records
+drivers
+:
+3 drivers
+Same weekday (
+2026-11-12
+):
+0 drivers
+· 7-day average:
+0 drivers
+Recorded pairing sessions overlapping the selected day, using the current driver roster. Pairing is not verified at-wheel time or rest.
+Show 14 days
+Fleet now, Truck data health
+:
+Truck states are current observations; their daily history is not retained.
+Fuel captures needing review now, Workshop extraction reviews now, Financial bill approvals now, Open incidents now, Full alert inbox now, Captured papers expired or due soon, Open or disputed challans now, Route deviations needing review now, Drivers and pairing status now
+:
+Backlogs and open cases describe now, not a past day. Raised-in-day exceptions and paired drivers are trended instead.
+Billing and cash movement
+:
+Finance Hub period measures are not repeated per day in this series.
+On-time arrivals, Bill / register / sensor reconciliation, At-wheel and rest, Navigation coverage, Actual per-trip margin
+:
+These report sections have no connected source yet.",web-owner-reports-trends.png,2026-11-19T21:14:51.539Z
+OWNER,Morning report,O08,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+Morning report
+Daily notification
+Disabled
+
+Time in IST (HH:mm)
+Language
+English
+
+Report branch
+Authorized branches
+
+Opens yesterday's report. Historical reports are recomputed; device notification permission is also required.
+Save preference",web-owner-morning-report.png,2026-11-19T21:17:39.457Z
+OWNER,Team & access,O25,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+Team & access
+Add employee
+Role
+Choose…
+
+Create a role
+Role name
+Description
+Access tier
+MANAGER
+
+Permissions
+☐
+Advance Masters · Advance Masters
+☐
+Approval Center · Approval Center
+☐
+Billing & Receivables · Billing & Receivables
+☐
+Call Planning · Call Planning
+☐
+ERP Home · ERP Home
+☐
+Fleet Intelligence · Fleet Intelligence
+☐
+Fuel Comparison · Fuel Comparison
+☐
+Fuel Integrity · Fuel Integrity
+☐
+Fuel Management · Fuel Management
+☐
+Geofence · Geofence
+☐
+Inbound e-Way Bills · Inbound e-Way Bills
+☐
+Khata Ledger · Khata Ledger
+☐
+Locations · Locations
+☐
+Masters & Settings · Masters & Settings
+☐
+Overview · Overview
+☐
+Payables & Ledger · Payables & Ledger
+☐
+Reports · Reports
+☐
+Vehicles · Vehicles
+☐
+Workforce · Workforce
+Save role
+Assign a role
+Employee
+Choose…
+
+Assignment scope
+Enterprise
+
+Assign selected role
+Branch access
+Configure branch
+Choose…
+",web-owner-team-access.png,2026-11-19T21:14:55.839Z
+OWNER,Settings & support,A12 O26,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+OWNER
+Settings & support
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+Remote notifications require an installed native development or release build.
+
+Audit
+OWNER
+Log out",web-owner-settings-support.png,2026-11-19T21:14:57.954Z
+OWNER,Save report preference,O08,Web (isolated Chrome with localhost CORS bypass),PASS - UI write and Mongo persistence verified,"
+Morning report
+Daily notification
+Disabled
+
+Time in IST (HH:mm)
+Language
+English
+
+Report branch
+Authorized branches
+
+Opens yesterday's report. Historical reports are recomputed; device notification permission is also required.
+Save preference",web-owner-save-report-preference.png,2026-11-19T21:17:40.852Z
+OWNER,Escalation detail,O11,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+Owner escalation
+AUDIT ENGINE_ON_IDLE
+Review local audit evidence
+AUD20NOV01
+Severity × confidence × urgency × monetary-stake factor. Unassessed stake uses factor 1; default confidence is a source-count heuristic, not a calibrated probability.
+Score
+1
+· confidence
+0.5
+· stake
+unassessed
+Acknowledgement:
+OPEN
+. Owner action:
+OPEN
+.
+local-screen-audit
+·
+Synthetic audit fixture
+Assessed stake in rupees (optional)
+Assessed confidence, 0 to 1 (optional)
+Urgent after (ISO timestamp with timezone, optional)
+Action note or driver's explanation (recorded by owner)
+Mark handled
+Snooze one hour
+Escalate
+Reopen
+Record explanation
+Call a driver about this issue
+Action history
+Earlier actions
+Newer actions",web-owner-escalation-detail.png,2026-11-19T21:19:24.009Z
+OWNER,Record explanation,O11,Web (isolated Chrome with localhost CORS bypass),PASS - UI write and Mongo persistence verified,"
+Owner escalation
+AUDIT ENGINE_ON_IDLE
+Review local audit evidence
+AUD20NOV01
+Severity × confidence × urgency × monetary-stake factor. Unassessed stake uses factor 1; default confidence is a source-count heuristic, not a calibrated probability.
+Score
+1
+· confidence
+0.5
+· stake
+unassessed
+Acknowledgement:
+OPEN
+. Owner action:
+OPEN
+.
+local-screen-audit
+·
+Synthetic audit fixture
+Assessed stake in rupees (optional)
+Assessed confidence, 0 to 1 (optional)
+Urgent after (ISO timestamp with timezone, optional)
+Action note or driver's explanation (recorded by owner)
+Mark handled
+Snooze one hour
+Escalate
+Reopen
+Record explanation
+Call a driver about this issue
+Action history
+EXPLANATION
+·
+20/11/2026, 02:49:25
+LOCAL UI audit: synthetic idle alert checked.
+Earlier actions
+Newer actions",web-owner-record-explanation.png,2026-11-19T21:19:25.436Z
+MANAGER,Initial,M01,Web (isolated Chrome with localhost CORS bypass),FAIL - HTTP 426,"Action cards
+Request failed with status code 426
+Retry
+Fleet & operations
+
+Home
+
+Live
+
+Alerts
+
+More
+
+Drivers",web-manager-initial.png,2026-11-19T21:14:44.225Z
+MANAGER,Tab Live,M04,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"FLEET MANAGER
+Fleet positions
+A view of your trucks on the road.
+
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+analytics
+:
+Period totals are unavailable from the analytics warehouse.
+
+
+2 trucks with reported coordinates · Tap a marker for details
+all
+moving
+stopped
+idling
+offline
+MARKER
+1
+
+
+Offline
+AUD20NOV04
+Audit Truck 4
+
+13.08000, 80.24500
+Truck GPS
+
+Updated 202 min ago
+MARKER
+2
+
+
+Status unavailable
+AUD20NOV03
+Audit Truck 3
+
+Location unavailable
+Source unavailable
+
+Updated 29918714 min ago
+MARKER
+3
+
+
+Status unavailable
+AUD20NOV02
+Audit Truck 2
+
+Location unavailable
+Source unavailable
+
+Updated 29918714 min ago
+MARKER
+4
+
+
+Offline
+AUD20NOV01
+Audit Truck 1
+
+13.02000, 80.20000
+Truck GPS
+
+Updated 22 min ago
+
+Home
+
+Live
+
+Alerts
+
+More
+
+Drivers",web-manager-tab-live.png,2026-11-19T21:14:45.673Z
+MANAGER,Tab Drivers,M06,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"FLEET MANAGER
+Drivers and assignments
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+analytics
+:
+Period totals are unavailable from the analytics warehouse.
+2
+drivers · Current assignments
+
+Audit Codriver Audit
+No active assignment
+
+
+Audit Ramesh Kumar
+Truck linked · MANUAL
+
+Previous
+Next
+Assign / hand over truck
+
+Home
+
+Live
+
+Alerts
+
+More
+
+Drivers",web-manager-tab-drivers.png,2026-11-19T21:14:47.253Z
+MANAGER,Tab Alerts,M09,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"FLEET MANAGER
+Owner alerts
+The same owner-alert feed as the web dashboard.
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+analytics
+:
+Period totals are unavailable from the analytics warehouse.
+Pending
+All
+Acknowledged
+7 days
+30 days
+90 days
+Alert type
+All alert types
+
+Vehicle registration
+
+0
+alerts ·
+0
+pending in this view
+
+No alerts match these filters
+No records in this branch.
+
+Home
+
+Live
+
+Alerts
+
+More
+
+Drivers",web-manager-tab-alerts.png,2026-11-19T21:14:48.705Z
+MANAGER,Tab More,M20,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"FLEET MANAGER
+Fleet essentials
+The rest of your working toolkit.
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+analytics
+:
+Period totals are unavailable from the analytics warehouse.
+Fleet & people
+Vehicles, drivers, and trip history.
+
+Fleet
+
+
+Duty board
+
+
+Fleet trips
+
+
+Team & access
+
+Records & reviews
+Operational follow-up for this branch.
+
+Maintenance
+
+
+Fuel review
+
+
+Fleet documents
+
+
+AdBlue / DEF
+
+Administration
+
+Messages & broadcasts
+
+
+Crew & driving
+
+
+Language & voice
+
+
+Settings & support
+
+
+Home
+
+Live
+
+Alerts
+
+More
+
+Drivers",web-manager-tab-more.png,2026-11-19T21:14:50.130Z
+MANAGER,Fleet,M04,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+FLEET MANAGER
+Your fleet
+Every truck, one clear view.
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+analytics
+:
+Period totals are unavailable from the analytics warehouse.
+Search vehicles
+
+
+
+Offline
+AUD20NOV04
+Audit Truck 4
+
+13.08000, 80.24500
+Truck GPS
+
+Updated 202 min ago
+
+
+Status unavailable
+AUD20NOV03
+Audit Truck 3
+
+Location unavailable
+Source unavailable
+
+Updated 29918714 min ago
+
+
+Status unavailable
+AUD20NOV02
+Audit Truck 2
+
+Location unavailable
+Source unavailable
+
+Updated 29918714 min ago
+
+
+Offline
+AUD20NOV01
+Audit Truck 1
+
+13.02000, 80.20000
+Truck GPS
+
+Updated 22 min ago",web-manager-fleet.png,2026-11-19T21:14:51.969Z
+MANAGER,Duty board,M06,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+FLEET MANAGER
+Drivers and assignments
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+analytics
+:
+Period totals are unavailable from the analytics warehouse.
+2
+drivers · Current assignments
+
+Audit Codriver Audit
+No active assignment
+
+
+Audit Ramesh Kumar
+Truck linked · MANUAL
+
+Previous
+Next
+Assign / hand over truck",web-manager-duty-board.png,2026-11-19T21:14:54.086Z
+MANAGER,Fleet trips,M12,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+FLEET MANAGER
+Fleet trips
+GPS-detected journeys.
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+analytics
+:
+Period totals are unavailable from the analytics warehouse.
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+121 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+120 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+123 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+122 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+125 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+124 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+127 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+126 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+129 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+128 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+131 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+130 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+133 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+132 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+135 km · COMPLETE
+
+
+AUDIT Chennai Plant → AUDIT Delivery Depot
+134 km · COMPLETE
+",web-manager-fleet-trips.png,2026-11-19T21:14:56.220Z
+MANAGER,Team & access,M19,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+Team & access
+Add employee
+Role
+Choose…
+
+Assign a role
+Employee
+Choose…
+
+Assignment scope
+Enterprise
+
+Assign selected role
+Branch access
+Configure branch
+Choose…
+",web-manager-team-access.png,2026-11-19T21:14:58.335Z
+MANAGER,Maintenance,M10 M11,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+FLEET MANAGER
+Workshop bills and issues
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+analytics
+:
+Period totals are unavailable from the analytics warehouse.
+Workshop bills
+
+1
+records · Page
+1
+
+Workshop bill
+PARTIAL
+
+Previous
+Next",web-manager-maintenance.png,2026-11-19T21:15:00.453Z
+MANAGER,Fuel review,M10,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+FLEET MANAGER
+Recorded fuel
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+analytics
+:
+Period totals are unavailable from the analytics warehouse.
+These are saved fuel entries. App-entry approval and rejection are not connected to a verified review workflow.
+14
+records · Page
+1
+
+AUDIT PUMP 13
+REVIEWED_OK
+
+
+AUDIT PUMP 12
+NEEDS_REVIEW
+
+
+AUDIT PUMP 11
+REVIEWED_OK
+
+
+AUDIT PUMP 10
+REVIEWED_OK
+
+
+AUDIT PUMP 9
+NEEDS_REVIEW
+
+
+AUDIT PUMP 8
+REVIEWED_OK
+
+
+AUDIT PUMP 7
+REVIEWED_OK
+
+
+AUDIT PUMP 6
+NEEDS_REVIEW
+
+
+AUDIT PUMP 5
+REVIEWED_OK
+
+
+AUDIT PUMP 4
+REVIEWED_OK
+
+
+AUDIT PUMP 3
+NEEDS_REVIEW
+
+
+AUDIT PUMP 2
+REVIEWED_OK
+
+
+AUDIT PUMP 1
+REVIEWED_OK
+
+
+AUDIT PUMP 0
+NEEDS_REVIEW
+
+Previous
+Next",web-manager-fuel-review.png,2026-11-19T21:15:02.553Z
+MANAGER,Fleet documents,M10,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+FLEET MANAGER
+Fleet documents
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+analytics
+:
+Period totals are unavailable from the analytics warehouse.
+5
+records · Page
+1
+
+UNKNOWN
+Recorded
+
+
+REPAIR_INVOICE
+Recorded
+
+
+PUC
+Recorded
+
+
+PAN
+Recorded
+
+
+DRIVER_LICENSE
+Recorded
+
+Previous
+Next",web-manager-fleet-documents.png,2026-11-19T21:15:04.667Z
+MANAGER,AdBlue / DEF,M18,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+AdBlue / DEF ledger
+View diesel fuel entries
+Selected-scope ledger: logged AdBlue, telemetry consumption and reconciliation. Each row carries its own coverage window; this is not a daily total.
+Registered vehicles:
+2
+Logged AdBlue:
+0 L
+DEF burned:
+Unavailable
+Sensor fills:
+Unavailable
+Fleet dosing:
+Unavailable
+Flagged vehicles:
+0
+Search vehicle
+AUD20NOV01
+NO_DATA
+Logged:
+Unavailable
+· Burned:
+Unavailable
+Sensor fills:
+Unavailable
+· Balance:
+Unavailable
+Dosing:
+Unavailable
+· Normal
+3
+–
+6
+%
+Show evidence
+AUD20NOV04
+NO_DATA
+Logged:
+Unavailable
+· Burned:
+Unavailable
+Sensor fills:
+Unavailable
+· Balance:
+Unavailable
+Dosing:
+Unavailable
+· Normal
+3
+–
+6
+%
+Show evidence
+Refresh",web-manager-adblue-def.png,2026-11-19T21:15:06.750Z
+MANAGER,Messages & broadcasts,M16 C01,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+Messages
+Your team, one conversation away.
+
+AUDIT Chennai Team
+Group · 4 people
+",web-manager-messages-broadcasts.png,2026-11-19T21:15:08.854Z
+MANAGER,Crew & driving,M14,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+Crew & driving
+AUD20NOV04
+AUD20NOV03
+AUD20NOV02
+AUD20NOV01",web-manager-crew-driving.png,2026-11-19T21:15:10.952Z
+MANAGER,Language & voice,A02 A10,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+Language & voice
+Language
+English
+हिन्दी
+বাংলা
+Test device voice
+Battery help",web-manager-language-voice.png,2026-11-19T21:15:13.033Z
+MANAGER,Settings & support,A12 M20,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+FLEET MANAGER
+Settings & support
+
+All branches
+
+Chennai
+
+Bihar
+
+Delhi
+analytics
+:
+Period totals are unavailable from the analytics warehouse.
+Remote notifications require an installed native development or release build.
+
+Audit Manager
+MANAGER
+Log out",web-manager-settings-support.png,2026-11-19T21:15:15.166Z
+DRIVER,Initial,D01 N01,Web (isolated Chrome with localhost CORS bypass),PLACEHOLDER - navigation unavailable,"
+Navigate
+Not available yet
+Turn-by-turn navigation is not connected yet. Open your truck or trip records below.
+My truck
+Trip records
+SOS
+
+Navigate
+
+Trips
+
+4
+Inbox
+
+More
+Capture",web-driver-initial.png,2026-11-19T21:17:31.821Z
+DRIVER,Tab Trips,D08,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"HIGHWAY SAHAYAK
+Your journeys
+GPS-detected trips
+
+SOS
+Complete
+19 Nov
+AUDIT Chennai Plant
+AUDIT Delivery Depot
+
+121 km
+· GPS-detected
+Complete
+19 Nov
+AUDIT Chennai Plant
+AUDIT Delivery Depot
+
+120 km
+· GPS-detected
+Complete
+18 Nov
+AUDIT Chennai Plant
+AUDIT Delivery Depot
+
+123 km
+· GPS-detected
+Complete
+18 Nov
+AUDIT Chennai Plant
+AUDIT Delivery Depot
+
+122 km
+· GPS-detected
+Complete
+17 Nov
+AUDIT Chennai Plant
+AUDIT Delivery Depot
+
+125 km
+· GPS-detected
+Complete
+17 Nov
+AUDIT Chennai Plant
+AUDIT Delivery Depot
+
+124 km
+· GPS-detected
+Complete
+16 Nov
+AUDIT Chennai Plant
+AUDIT Delivery Depot
+
+127 km
+· GPS-detected
+Complete
+16 Nov
+AUDIT Chennai Plant
+AUDIT Delivery Depot
+
+126 km
+· GPS-detected
+Complete
+15 Nov
+AUDIT Chennai Plant
+AUDIT Delivery Depot
+
+129 km
+· GPS-detected
+Complete
+15 Nov
+AUDIT Chennai Plant
+AUDIT Delivery Depot
+
+128 km
+· GPS-detected
+Complete
+14 Nov
+AUDIT Chennai Plant
+AUDIT Delivery Depot
+
+131 km
+· GPS-detected
+Complete
+14 Nov
+AUDIT Chennai Plant
+AUDIT Delivery Depot
+
+130 km
+· GPS-detected
+Complete
+13 Nov
+AUDIT Chennai Plant
+AUDIT Delivery Depot
+
+133 km
+· GPS-detected
+Complete
+13 Nov
+AUDIT Chennai Plant
+AUDIT Delivery Depot
+
+132 km
+· GPS-detected
+Complete
+12 Nov
+AUDIT Chennai Plant
+AUDIT Delivery Depot
+
+135 km
+· GPS-detected
+Complete
+12 Nov
+AUDIT Chennai Plant
+AUDIT Delivery Depot
+
+134 km
+· GPS-detected
+
+Navigate
+
+Trips
+
+4
+Inbox
+
+More
+Capture",web-driver-tab-trips.png,2026-11-19T21:17:33.223Z
+DRIVER,Tab Inbox,D27,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"HIGHWAY SAHAYAK
+Your inbox
+Your duty, assignment, support and incident updates.
+All
+Unread
+4
+unread ·
+4
+matching alerts
+
+SOS / breakdown
+AUD20NOV01 reported breakdown at 02:22 near 13.02, 80.2.
+Critical · Tap to acknowledge
+
+
+AUDIT support reply
+Synthetic local alert for app screen validation
+Info · Tap to acknowledge
+
+
+AUDIT rest reminder
+Synthetic local alert for app screen validation
+Info · Tap to acknowledge
+
+
+AUDIT licence expires soon
+Synthetic local alert for app screen validation
+Info · Tap to acknowledge
+
+Previous
+Page
+1
+Next
+
+Navigate
+
+Trips
+
+4
+Inbox
+
+More
+Capture",web-driver-tab-inbox.png,2026-11-19T21:17:34.641Z
+DRIVER,Tab More,D36,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"HIGHWAY SAHAYAK
+Everything else
+Your essentials, in one place.
+Truck & trips
+
+Crew & driving
+
+
+ERP trips
+
+
+My truck
+
+
+Location sharing
+
+Messages & records
+
+Messages
+
+
+Documents
+
+
+Fuel history
+
+
+My issues
+
+
+Workshop bills
+
+
+Support
+
+Account
+
+Experience settings
+
+
+Driver help
+
+
+Profile
+
+
+Navigate
+
+Trips
+
+4
+Inbox
+
+More
+Capture",web-driver-tab-more.png,2026-11-19T21:17:36.040Z
+DRIVER,Crew & driving,D05,Web (isolated Chrome with localhost CORS bypass),FAIL - HTTP 426,"
+Crew & driving
+Driving confirmations are crew statements, separate from truck pairing. Actions take effect when confirmed online; waiting time stays unconfirmed.
+Request failed with status code 426
+Retry",web-driver-crew-driving.png,2026-11-19T21:15:41.172Z
+DRIVER,ERP trips,D10,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+ERP trips & delivery documents
+TRIP/26-27/0001
+AUD20NOV01
+·
+PLACED
+Mumbai
+→
+Pune
+Page
+1
+· 1 trips
+Previous
+Next",web-driver-erp-trips.png,2026-11-19T21:15:43.223Z
+DRIVER,My truck,D03,Web (isolated Chrome with localhost CORS bypass),FAIL - HTTP 426,"
+HIGHWAY SAHAYAK
+My truck
+Your vehicle. Your working day.
+Crew & driving
+Request failed with status code 426
+Retry
+Open crew & handover
+
+
+Offline
+AUD20NOV01
+Audit Truck 1
+
+last seen 23 min ago
+Last known position
+
+Updated 23 min ago
+
+Odometer
+Unavailable
+
+Location sharing
+Understand where this position comes from
+
+
+Change truck",web-driver-my-truck.png,2026-11-19T21:15:45.278Z
+DRIVER,Location sharing,A07,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+HIGHWAY SAHAYAK
+Location sharing
+
+Sharing: off
+No successful send recorded in this session
+0 recorded fixes waiting to send.
+Failed sends stay on this device for retry under your account.
+Foreground sharing works while this app is open. Background sharing requires a native development build and Always location permission; Expo Go and browsers cannot provide this mode.
+Share while app is open
+Stop sharing",web-driver-location-sharing.png,2026-11-19T21:15:47.343Z
+DRIVER,Messages,C01,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+Messages
+Your team, one conversation away.
+
+AUDIT Owner and Ramesh
+Direct message · 2 people
+
+
+AUDIT Chennai Team
+Group · 4 people
+",web-driver-messages.png,2026-11-19T21:15:49.395Z
+DRIVER,Conversation,C02,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+AUDIT Owner and Ramesh
+Direct conversation
+·
+Active
+·
+1
+other participants
+Fleet colleague
+·
+20/11/2026, 02:20:52
+AUDIT: Please confirm you can see this local test message.
+Acknowledge message
+You
+·
+20/11/2026, 02:20:52
+AUDIT: Driver reply saved in local backend.
+1
+/
+1
+fetched ·
+1
+read ·
+0
+acknowledged ·
+0
+skipped
+Delivery details
+Fleet colleague
+·
+20/11/2026, 02:41:44
+LOCAL UI audit message 2026-11-19T21:11:44.695Z
+Acknowledge message
+Fleet colleague
+·
+20/11/2026, 02:43:25
+LOCAL UI audit message 2026-11-19T21:13:25.529Z
+Acknowledge message
+Message
+Send message
+
+Photo
+
+Voice
+
+Location
+
+Update",web-driver-conversation.png,2026-11-19T21:15:50.792Z
+DRIVER,Documents,D15,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+HIGHWAY SAHAYAK
+Documents
+Add document
+Document owner
+My documents
+
+2
+records · Page
+1
+
+PAN
+Verified
+
+
+DRIVER_LICENSE
+Not verified · Expires 26/11/2026
+
+Previous page
+Next page",web-driver-documents.png,2026-11-19T21:17:57.011Z
+DRIVER,Fuel history,D23,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+HIGHWAY SAHAYAK
+Fuel history
+Add fuel
+14
+records · Page
+1
+
+AUDIT PUMP 13
+REVIEWED_OK
+
+
+AUDIT PUMP 12
+NEEDS_REVIEW
+
+
+AUDIT PUMP 11
+REVIEWED_OK
+
+
+AUDIT PUMP 10
+REVIEWED_OK
+
+
+AUDIT PUMP 9
+NEEDS_REVIEW
+
+
+AUDIT PUMP 8
+REVIEWED_OK
+
+
+AUDIT PUMP 7
+REVIEWED_OK
+
+
+AUDIT PUMP 6
+NEEDS_REVIEW
+
+
+AUDIT PUMP 5
+REVIEWED_OK
+
+
+AUDIT PUMP 4
+REVIEWED_OK
+
+
+AUDIT PUMP 3
+NEEDS_REVIEW
+
+
+AUDIT PUMP 2
+REVIEWED_OK
+
+
+AUDIT PUMP 1
+REVIEWED_OK
+
+
+AUDIT PUMP 0
+NEEDS_REVIEW
+
+Previous page
+Next page",web-driver-fuel-history.png,2026-11-19T21:17:53.172Z
+DRIVER,My issues,D25,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+HIGHWAY SAHAYAK
+My issues
+Add issue
+1
+records · Page
+1
+
+LOCAL dummy tyre issue; no dispatch requested
+OPEN
+
+Previous page
+Next page",web-driver-my-issues.png,2026-11-19T21:17:37.763Z
+DRIVER,Workshop bills,D24,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+HIGHWAY SAHAYAK
+Workshop bills
+Add workshop bill
+1
+records · Page
+1
+
+Workshop bill
+PARTIAL · Awaiting review
+
+Previous page
+Next page",web-driver-workshop-bills.png,2026-11-19T21:18:00.822Z
+DRIVER,Support,D26,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+HIGHWAY SAHAYAK
+Support
+Add support ticket
+1
+records · Page
+1
+
+AUDIT fuel receipt question
+OPEN
+
+Previous page
+Next page",web-driver-support.png,2026-11-19T21:17:45.478Z
+DRIVER,Experience settings,A02 A10,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+Language & voice
+Language
+English
+हिन्दी
+বাংলা
+Test device voice
+Battery help",web-driver-experience-settings.png,2026-11-19T21:16:03.694Z
+DRIVER,Driver help,D42,Web (isolated Chrome with localhost CORS bypass),FAIL - HTTP 426,"
+Help
+Request failed with status code 426
+Retry",web-driver-driver-help.png,2026-11-19T21:16:05.805Z
+DRIVER,Profile,D35,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+HIGHWAY SAHAYAK
+Your profile
+Your account and local preferences.
+
+Audit Ramesh
+DRIVER · Signed-in account
+
+Organization
+Your signed-in organization
+display preference
+Save preference
+This preference stays for this session and updates your Home greeting. Your account name is unchanged.
+Remote notifications require an installed native development or release build.
+
+Language
+English
+
+Appearance
+Nova light · Current theme
+Log out",web-driver-profile.png,2026-11-19T21:16:07.894Z
+DRIVER,New truck issue,D25,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+HIGHWAY SAHAYAK
+Report issue
+Describe the issue
+
+Upload
+attachment
+Optional photo or PDF.
+
+Camera
+
+Gallery
+
+Upload a PDF instead
+Save entry",web-driver-new-truck-issue.png,2026-11-19T21:17:39.127Z
+DRIVER,Save truck issue,D25,Web (isolated Chrome with localhost CORS bypass),PASS - UI write and Mongo persistence verified,"
+HIGHWAY SAHAYAK
+Report issue
+Saved on the server
+Your entry was confirmed by the server.
+Done",web-driver-save-truck-issue.png,2026-11-19T21:17:40.538Z
+DRIVER,Issues after save,D25,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+HIGHWAY SAHAYAK
+My issues
+Add issue
+2
+records · Page
+1
+
+LOCAL UI audit dummy submission; no real fault or help requested.
+OPEN
+
+
+LOCAL dummy tyre issue; no dispatch requested
+OPEN
+
+Previous page
+Next page",web-driver-issues-after-save.png,2026-11-19T21:17:43.417Z
+DRIVER,New support ticket,D26,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+HIGHWAY SAHAYAK
+New support ticket
+Subject
+Describe the problem
+Category
+OTHER
+
+
+Upload
+attachment
+Optional photo or PDF.
+
+Camera
+
+Gallery
+
+Upload a PDF instead
+Save entry",web-driver-new-support-ticket.png,2026-11-19T21:17:46.874Z
+DRIVER,Save support ticket,D26,Web (isolated Chrome with localhost CORS bypass),PASS - UI write and Mongo persistence verified,"
+HIGHWAY SAHAYAK
+New support ticket
+Saved on the server
+Your entry was confirmed by the server.
+Done",web-driver-save-support-ticket.png,2026-11-19T21:17:48.295Z
+DRIVER,Support after save,D26,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+HIGHWAY SAHAYAK
+Support
+Add support ticket
+2
+records · Page
+1
+
+LOCAL UI audit support request
+OPEN
+
+
+AUDIT fuel receipt question
+OPEN
+
+Previous page
+Next page",web-driver-support-after-save.png,2026-11-19T21:17:51.167Z
+DRIVER,Add fuel form,D22,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"Back
+Log fuel entry
+Vehicle
+AUD20NOV01
+
+Driver:
+Audit Ramesh Kumar
+Previous odometer:
+49200
+km
+Previous refuel:
+19/11/2026, 05:00:00
+
+Upload
+fuel slip
+
+Camera
+
+Gallery
+Fuel type: Diesel
+Filling type
+Partial fill
+
+Litres
+Rate per litre (₹)
+Pump location
+Refuel date and time
+Search source location
+Source location
+Choose…
+
+Search destination location
+Destination location
+Choose…
+
+Save entry",web-driver-add-fuel-form.png,2026-11-19T21:17:54.539Z
+DRIVER,Add document form,D14 D15,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+HIGHWAY SAHAYAK
+Upload document
+
+Upload
+document
+A clear photo or PDF of the original document.
+
+Camera
+
+Gallery
+
+Upload a PDF instead
+Document owner
+My document
+
+Document type
+Detect from photo
+
+Expiry date (optional)
+Save entry",web-driver-add-document-form.png,2026-11-19T21:17:58.385Z
+DRIVER,Add workshop bill form,D24,Web (isolated Chrome with localhost CORS bypass),OPENED - deeper behavior unverified,"
+HIGHWAY SAHAYAK
+Workshop bill
+
+Upload
+workshop bill
+The original workshop bill. OCR proposes values for your fleet to review.
+
+Camera
+
+Gallery
+
+Upload a PDF instead
+Upload bill for OCR",web-driver-add-workshop-bill-form.png,2026-11-19T21:18:02.202Z
+OWNER,Daily report,O01,iOS 26.5 Simulator / Expo Go,PASS - known report fixtures visible,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,02-owner-today.png,2026-11-20 IST
+OWNER,Capture queue,O13,iOS 26.5 Simulator / Expo Go,FAIL - HTTP 426,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,04-issue-owner-capture-queue.png,2026-11-20 IST
+OWNER,Notification registration,A12,iOS 26.5 Simulator / Expo Go,LIMITATION - simulator/native push unavailable,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,06-issue-push-unavailable.png,2026-11-20 IST
+MANAGER,Action cards,M01,iOS 26.5 Simulator / Expo Go,FAIL - HTTP 426,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,08-issue-manager-426.png,2026-11-20 IST
+DRIVER,Trip list,D08,iOS 26.5 Simulator / Expo Go,PASS - seeded journeys visible,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,12-driver-trips.png,2026-11-20 IST
+DRIVER,Inbox,D27,iOS 26.5 Simulator / Expo Go,PASS - seeded alerts/unread visible,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,13-driver-inbox.png,2026-11-20 IST
+DRIVER,Crew,D05,iOS 26.5 Simulator / Expo Go,FAIL - HTTP 426,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,14-issue-driver-crew.png,2026-11-20 IST
+DRIVER,Trip detail,D09,iOS 26.5 Simulator / Expo Go,PASS - seeded trip/fuel detail visible,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,15-driver-trip-detail.png,2026-11-20 IST
+DRIVER,Personal documents,D15,iOS 26.5 Simulator / Expo Go,PASS - two personal records visible,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,17-driver-documents.png,2026-11-20 IST
+DRIVER,Help,D42,iOS 26.5 Simulator / Expo Go,FAIL - HTTP 426,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,18-driver-help.png,2026-11-20 IST
+DRIVER,Navigate,N01,iOS 26.5 Simulator / Expo Go,PLACEHOLDER - navigation unavailable,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,21-issue-navigation-unavailable.png,2026-11-20 IST
+DRIVER,Capture menu,D13 D36,iOS 26.5 Simulator / Expo Go,PARTIAL - working menu; planned tools missing,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,22-driver-capture-menu.png,2026-11-20 IST
+FIELD_AGENT,Empty-organisation Home,F01,iOS 26.5 Simulator / Expo Go,PASS - correct empty organisation context,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,23-agent-initial.png,2026-11-20 IST
+FIELD_AGENT,Organisation selector,F02,iOS 26.5 Simulator / Expo Go,FAIL - null data render crash,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,26-issue-agent-org-crash.png,2026-11-20 IST
+FIELD_AGENT,Fuel log empty state,F05,iOS 26.5 Simulator / Expo Go,FAIL - hard-coded August/Improving claims,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,27-agent-fuel-history.png,2026-11-20 IST
+FIELD_AGENT,Vehicle picker empty state,F03,iOS 26.5 Simulator / Expo Go,PASS - no trucks in secondary organisation,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,28-agent-vehicle-picker.png,2026-11-20 IST
+FIELD_AGENT,Home with seeded records,F01,iOS 26.5 Simulator / Expo Go,PASS - populated audit organisation,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,29-agent-primary-home.png,2026-11-20 IST
+FIELD_AGENT,Populated truck picker,F03,iOS 26.5 Simulator / Expo Go,PASS - four audit trucks selectable,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,30-agent-primary-vehicles.png,2026-11-20 IST
+FIELD_AGENT,Fuel form,F04,iOS 26.5 Simulator / Expo Go,PARTIAL - opens but selected truck dropped,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,34-issue-agent-selected-truck-lost.png,2026-11-20 IST
+FIELD_AGENT,Logout,F07,iOS 26.5 Simulator / Expo Go,FAIL - server revocation HTTP 400,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,32-issue-agent-logout-org-header.png,2026-11-20 IST
+FIELD_AGENT,Fuel log with records,F05,iOS 26.5 Simulator / Expo Go,PARTIAL - records visible; date/trend claims wrong,Native screenshot plus Maestro flow/hierarchy. External device acceptance is separate.,35-agent-populated-fuel-log.png,2026-11-20 IST
+OWNER,Final daily report,O01,iOS 26.5 Simulator / Expo Go,PASS - refreshed known report fixtures visible,"See native flow, screenshot and map hierarchy. Real GPS movement/trail accuracy not tested.",41-owner-final-today.png,2026-11-20 IST
+OWNER,Native live fleet,O20,iOS 26.5 Simulator / Expo Go,PASS - list/map preview opened,"See native flow, screenshot and map hierarchy. Real GPS movement/trail accuracy not tested.",37-owner-live-native.png,2026-11-20 IST
+OWNER,Native full-screen map,O20,iOS 26.5 Simulator / Expo Go,PASS - map exit control verified,"See native flow, screenshot and map hierarchy. Real GPS movement/trail accuracy not tested.",40-owner-full-map.png,2026-11-20 IST

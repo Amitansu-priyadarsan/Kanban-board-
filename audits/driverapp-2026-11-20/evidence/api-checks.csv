@@ -1,0 +1,89 @@
+Role,Method,Route under local /api,HTTP status,Version diagnostic,Interpretation / scope,Response message,Total,Items,Evidence file
+OWNER,POST,/app/v1/auth/login,200,NO,Role login succeeded; token payload deliberately not embedded.,,,,REDACTED LOGIN PAYLOAD
+MANAGER,POST,/app/v1/auth/login,200,NO,Role login succeeded; token payload deliberately not embedded.,,,,REDACTED LOGIN PAYLOAD
+DRIVER,POST,/app/v1/auth/login,200,NO,Role login succeeded; token payload deliberately not embedded.,,,,REDACTED LOGIN PAYLOAD
+FIELD_AGENT,POST,/app/v1/auth/login,200,NO,Role login succeeded; token payload deliberately not embedded.,,,,REDACTED LOGIN PAYLOAD
+OWNER,GET,/app/v1/auth/me,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,,logs/api-payloads/005-owner.json
+OWNER,GET,/fleet/workflows/drivers?page=1&limit=30,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,4,4,logs/api-payloads/006-owner.json
+OWNER,GET,/vehicles?page=1&limit=100,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,4,4,logs/api-payloads/007-owner.json
+OWNER,GET,/app/v2/reports/trends?date=2026-11-19,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,,logs/api-payloads/008-owner.json
+OWNER,GET,/livetracking/positions,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,4,logs/api-payloads/009-owner.json
+OWNER,GET,/app/v2/reports/daily?date=2026-11-19,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,,logs/api-payloads/010-owner.json
+OWNER,GET,/app/v2/reports/preferences,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,,logs/api-payloads/011-owner.json
+OWNER,GET,/app/v2/reports/rows?metric=trips&date=2026-11-19,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,2,2,logs/api-payloads/012-owner.json
+OWNER,GET,/app/v2/reports/rows?metric=diesel&date=2026-11-19,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,2,2,logs/api-payloads/013-owner.json
+OWNER,GET,/app/v2/captures?page=1,426,NO,Expected version enforcement; integration blocker for this app.,DriverApp 1.0.0 is older than the minimum version 2.0.0 this endpoint requires. Update the app to continue. Nothing was written.,,,logs/api-payloads/014-owner.json
+OWNER,GET,/app/v2/escalations?all=true&page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,6,6,logs/api-payloads/015-owner.json
+OWNER,GET,/app/v2/captures/review?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,4,4,logs/api-payloads/016-owner.json
+OWNER,GET,/app/v2/calls?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,1,1,logs/api-payloads/017-owner.json
+OWNER,GET,/app/v2/communication/conversations?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,3,3,logs/api-payloads/018-owner.json
+OWNER,GET,/app/v2/communication/conversations/6aff612c1630506eefdce4b1/messages,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,4,logs/api-payloads/019-owner.json
+OWNER,GET,/app/v2/communication/audience?driverOnly=true,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,4,4,logs/api-payloads/020-owner.json
+OWNER,GET,/fleet/workflows/fuel?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,14,14,logs/api-payloads/021-owner.json
+OWNER,GET,/fleet/workflows/documents?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,5,5,logs/api-payloads/022-owner.json
+OWNER,GET,/fleet/workflows/maintenance?page=1&vehicleId=6aff5fca5c9e418d051dfc8f,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,1,1,logs/api-payloads/023-owner.json
+OWNER,GET,/fleet/workflows/bills?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,1,1,logs/api-payloads/024-owner.json
+OWNER,GET,/fleet/workflows/issues?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,2,2,logs/api-payloads/025-owner.json
+OWNER,GET,/app/v2/crew/vehicles/6aff5fca5c9e418d051dfc8f,404,NO,Wrong frontend route shape; compare correct /crew/:vehicleId diagnostic.,Not Found,,,logs/api-payloads/026-owner.json
+OWNER,GET,/app/v2/crews,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,1,logs/api-payloads/027-owner.json
+OWNER,GET,/def-ledger,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,,logs/api-payloads/028-owner.json
+OWNER,GET,/app/v2/reports/delivery-history?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,0,0,logs/api-payloads/029-owner.json
+OWNER,GET,/app/v2/trips/6aff612b5c9e418d051dfcf0/promise,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,,logs/api-payloads/030-owner.json
+OWNER,GET,/app/v2/trips/6aff612b5c9e418d051dfcf0/costs,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,,logs/api-payloads/031-owner.json
+MANAGER,GET,/app/v1/auth/me,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,,logs/api-payloads/032-manager.json
+MANAGER,GET,/fleet/workflows/drivers?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,2,2,logs/api-payloads/033-manager.json
+MANAGER,GET,/fleet/workflows/summary,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,,logs/api-payloads/034-manager.json
+MANAGER,GET,/app/v2/manager/cards,426,NO,Expected version enforcement; integration blocker for this app.,DriverApp 1.0.0 is older than the minimum version 2.0.0 this endpoint requires. Update the app to continue. Nothing was written.,,,logs/api-payloads/035-manager.json
+MANAGER,GET,/vehicles?page=1&limit=100,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,4,4,logs/api-payloads/036-manager.json
+MANAGER,GET,/livetracking/positions,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,2,logs/api-payloads/037-manager.json
+MANAGER,GET,/fleet/workflows/documents?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,5,5,logs/api-payloads/038-manager.json
+MANAGER,GET,/owner-alerts?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,0,0,logs/api-payloads/039-manager.json
+MANAGER,GET,/fleet/workflows/bills?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,1,1,logs/api-payloads/040-manager.json
+MANAGER,GET,/app/v2/reports/daily?date=2026-11-19,403,NO,Expected current role restriction; may be a planned-role gap.,You do not have permission to perform this action,,,logs/api-payloads/041-manager.json
+MANAGER,GET,/app/v2/communication/conversations,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,1,1,logs/api-payloads/042-manager.json
+MANAGER,GET,/fleet/workflows/issues?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,2,2,logs/api-payloads/043-manager.json
+DRIVER,GET,/driver/me/vehicle,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,,logs/api-payloads/044-driver.json
+DRIVER,GET,/app/v1/auth/me,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,,logs/api-payloads/045-driver.json
+DRIVER,GET,/auto-trips?page=1&limit=30,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,16,16,logs/api-payloads/046-driver.json
+DRIVER,GET,/auto-trips/6aff612b5c9e418d051dfcf0/track,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,,logs/api-payloads/047-driver.json
+DRIVER,GET,/driver/workflows/fuel?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,14,14,logs/api-payloads/048-driver.json
+DRIVER,GET,/auto-trips/6aff612b5c9e418d051dfcf0,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,,logs/api-payloads/049-driver.json
+DRIVER,GET,/driver/workflows/documents?page=1&scope=personal,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,2,2,logs/api-payloads/050-driver.json
+DRIVER,GET,/driver/workflows/bills?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,1,1,logs/api-payloads/051-driver.json
+DRIVER,GET,/driver/workflows/support?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,2,2,logs/api-payloads/052-driver.json
+DRIVER,GET,/app/v2/crew/me,426,NO,Expected version enforcement; integration blocker for this app.,DriverApp 1.0.0 is older than the minimum version 2.0.0 this endpoint requires. Update the app to continue. Nothing was written.,,,logs/api-payloads/053-driver.json
+DRIVER,GET,/driver/incidents?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,2,logs/api-payloads/054-driver.json
+DRIVER,GET,/driver/alerts?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,4,4,logs/api-payloads/055-driver.json
+DRIVER,GET,/app/v2/duty/today,426,NO,Expected version enforcement; integration blocker for this app.,DriverApp 1.0.0 is older than the minimum version 2.0.0 this endpoint requires. Update the app to continue. Nothing was written.,,,logs/api-payloads/056-driver.json
+DRIVER,GET,/app/v2/duty/break-plan,426,NO,Expected version enforcement; integration blocker for this app.,DriverApp 1.0.0 is older than the minimum version 2.0.0 this endpoint requires. Update the app to continue. Nothing was written.,,,logs/api-payloads/057-driver.json
+DRIVER,GET,/app/v2/consent,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,,logs/api-payloads/058-driver.json
+DRIVER,GET,/app/v2/help,426,NO,Expected version enforcement; integration blocker for this app.,DriverApp 1.0.0 is older than the minimum version 2.0.0 this endpoint requires. Update the app to continue. Nothing was written.,,,logs/api-payloads/059-driver.json
+DRIVER,GET,/app/v2/prompts,426,NO,Expected version enforcement; integration blocker for this app.,DriverApp 1.0.0 is older than the minimum version 2.0.0 this endpoint requires. Update the app to continue. Nothing was written.,,,logs/api-payloads/060-driver.json
+DRIVER,GET,/app/v2/visits/active,426,NO,Expected version enforcement; integration blocker for this app.,DriverApp 1.0.0 is older than the minimum version 2.0.0 this endpoint requires. Update the app to continue. Nothing was written.,,,logs/api-payloads/061-driver.json
+DRIVER,GET,/app/v1/bills?page=1,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,3,3,logs/api-payloads/062-driver.json
+DRIVER,GET,/app/v2/communication/conversations,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,2,2,logs/api-payloads/063-driver.json
+FIELD_AGENT,GET,/me/orgs,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,2,logs/api-payloads/064-field_agent.json
+FIELD_AGENT,GET,/field-agent/fuel-logs/all-vehicles,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,,4,logs/api-payloads/065-field_agent.json
+FIELD_AGENT,GET,/fuel-logs?page=1&limit=30,200,NO,Read succeeded; detailed content/lifecycle correctness is separate.,,14,14,logs/api-payloads/066-field_agent.json
+FIELD_AGENT,GET,/app/v2/captures,426,NO,Expected version enforcement; integration blocker for this app.,DriverApp 1.0.0 is older than the minimum version 2.0.0 this endpoint requires. Update the app to continue. Nothing was written.,,,logs/api-payloads/067-field_agent.json
+MANAGER,GET,/app/v2/manager/cards,200,YES,Read succeeded; detailed content/lifecycle correctness is separate.,,,,logs/api-payloads/068-manager.json
+DRIVER,GET,/app/v2/duty/today,500,YES,Backend populated-response contract failure; see issue register.,The response for duty.today did not match its contract: body.data.evidence.counted[0].start must be of type string or null,,,logs/api-payloads/069-driver.json
+DRIVER,GET,/app/v2/help,500,YES,Backend populated-response contract failure; see issue register.,The response for help.menu did not match its contract: body.data.cards[0].raisedAt must be of type string or null; body.data.cards[1].raisedAt must be of type string or null,,,logs/api-payloads/070-driver.json
+DRIVER,GET,/app/v2/crew/6aff5fca5c9e418d051dfc8f,200,YES,Read succeeded; detailed content/lifecycle correctness is separate.,,,,logs/api-payloads/071-driver.json
+DRIVER,GET,/app/v2/crew/me,400,YES,Wrong frontend route shape; compare correct /crew/:vehicleId diagnostic.,The vehicle id is not valid.,,,logs/api-payloads/072-driver.json
+DRIVER,GET,/app/v2/crew/vehicles/6aff5fca5c9e418d051dfc8f,404,YES,Wrong frontend route shape; compare correct /crew/:vehicleId diagnostic.,Not Found,,,logs/api-payloads/073-driver.json
+DRIVER,GET,/app/v2/crew/6aff5fca5c9e418d051dfc8f,426,NO,Current binary version still below crew minimum; EXPECTED,DriverApp 1.0.1 is older than the minimum version 2.0.0 this endpoint requires. Update the app to continue. Nothing was written.,,,logs/postchecks.json
+DRIVER,POST,/app/v2/consent,400,NO,Consent write missing retry header; EXPECTED,This endpoint requires an Idempotency-Key header so a retried write cannot be applied twice.,,,logs/postchecks.json
+DRIVER,POST,/app/v2/crew/6aff5fca5c9e418d051dfc8f/actions,400,YES,Crew write missing retry header; EXPECTED,This endpoint requires an Idempotency-Key header so a retried write cannot be applied twice.,,,logs/postchecks.json
+DRIVER,POST,/app/v2/crew/6aff5fca5c9e418d051dfc8f/actions,400,YES,Crew rejects frontend-only fields; EXPECTED,body.expectedVersion is not an allowed field; body.safelyStopped is not an allowed field,,,logs/postchecks.json
+OWNER,GET,/app/v2/captures,403,YES,Owner capture helper also has wrong role endpoint; EXPECTED,You do not have permission to perform this action,,,logs/postchecks.json
+OWNER,GET,/app/v2/captures/review?page=1,200,NO,Owner intended review queue works; EXPECTED,,,,logs/postchecks.json
+DRIVER,GET,/app/v2/captures/6aff67f75c9e418d051dfd75,200,YES,Driver own capture metadata; EXPECTED,,,,logs/postchecks.json
+DRIVER,GET,/app/v2/captures/6aff67f75c9e418d051dfd76,200,YES,Same-org other-driver capture readable: self-scope discrepancy; EXPECTED,,,,logs/postchecks.json
+FIELD_AGENT,GET,/app/v2/captures,200,YES,Field agent primary org capture list; EXPECTED,,,,logs/postchecks.json
+FIELD_AGENT,GET,/app/v2/captures,200,YES,Field agent secondary org isolation; EXPECTED,,,,logs/postchecks.json
+MANAGER,GET,/app/v2/manager/cards,200,YES,Manager branch header cannot override session-assigned branch; EXPECTED,Returned own session branch; header did not override scope. Verified branchId=6aff5fc95c9e418d051dfc81,,,logs/postchecks.json
+DRIVER,GET,/app/v2/visits/active,200,YES,Live site visit backend populated; EXPECTED,,,,logs/postchecks.json
+OWNER,GET,/app/v2/reports/preferences,200,NO,Owner preference persisted; EXPECTED,,,,logs/postchecks.json
+OWNER,GET,/app/v2/communication/conversations/6aff612c1630506eefdce4b1/messages,200,NO,Owner messages persisted; EXPECTED,,,,logs/postchecks.json
+OWNER,GET,/app/v2/config,200,NO,Public mobile config; EXPECTED,,,,logs/postchecks.json
